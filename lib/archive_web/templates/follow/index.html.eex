@@ -1,7 +1,14 @@
- <section class="hero">
- <div class="hero-body">
-    <div class="container has-text-centered">
-    <h1 class="title">Follow</b></h1>
-  </div>
-  </div>
-  </section>
+<div class="follow-page">
+
+    <header class="title">
+        <h1>Follow <span>Archived.Earth</span></h1>
+    </header>
+
+    <div class="field">
+        <input class="input is-rounded" type="text" placeholder="Enter your email address">
+    </div>
+
+    <div class="btn">
+        <a class="button is-rounded">Submit</a>
+    </div>
+</div>

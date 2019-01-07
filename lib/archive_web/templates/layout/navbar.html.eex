@@ -1,19 +1,36 @@
-        <div class="column is-1-tablet is-1-desktop is-1-widescreen is-hidden-mobile">
-          <nav class="menu">
-            <a class="" href="/" style="font-weight:bold;">
-        <img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg") %>' alt="archive-earth-logo">
-      </a>
-  
-            <ul class="menu-list">
-              <li>
-                <a class='<%="#{active_class(ErmWeb.HomeController, @conn)}"%>' href="/about">About</a>
-              </li>
-              <li>
-                <a class='<%="#{active_class(ErmWeb.MapController, @conn)}"%>' href="/news">News</a>
-              </li>
-              <li>
-                <a class='<%="#{active_class(ErmWeb.ActivityController, @conn)}"%>' href="/follow">Follow</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+
+<!--
+<div class="column is-1-tablet is-1-desktop is-1-widescreen is-hidden-mobile">
+<nav class="menu">
+  <a class="" href="/" style="font-weight:bold;">
+<img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg") %>' alt="archive-earth-logo">
+</a>
+
+  <ul class="menu-list">
+    <li>
+      <a class='<%="#{active_class(ErmWeb.HomeController, @conn)}"%>' href="/about">About</a>
+    </li>
+    <li>
+      <a class='<%="#{active_class(ErmWeb.MapController, @conn)}"%>' href="/news">News</a>
+    </li>
+    <li>
+      <a class='<%="#{active_class(ErmWeb.ActivityController, @conn)}"%>' href="/follow">Follow</a>
+    </li>
+  </ul>
+</nav>
+</div>
+-->
+
+
+<nav class="nav-bar">
+    <div class="logo">
+        <a href="/">
+            <img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg") %>' alt="archive-earth-logo">
+        </a>
+    </div>
+    <ul class="menu">
+        <li><a href="/about">About</a></li>
+        <li><a href="/news">News</a></li>
+        <li><a href="/follow">Follow</a></li>
+    </ul>
+</nav>

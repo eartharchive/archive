@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Archive · Phoenix Framework</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.3.92/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   </head>
   <body>
+    
+    <!--
     <header>
     <%= render "mobile.navbar.html", assigns %>      
     </header>
+    -->
 
-    <section>
-       <div class="columns">
-        <%= render "navbar.html", assigns %>
-        <div class="column">
-         <%= render @view_module, @view_template, assigns %>
-         </div>
-       </div>
-    </section>
+    <div class="main container">
+      <%= render "navbar.html", assigns %>
+      <!--<mobile-navbar class="mobile-navbar is-block-mobile"/>-->
+      <div class="contents">
+        <%= render @view_module, @view_template, assigns %>
+      </div>
+      <div class="polygon"></div>
+    </div>
     
     <%= render "scripts.html", assigns %>
   </body>

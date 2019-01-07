@@ -1,8 +1,6 @@
- <section class="hero">
- <div class="hero-body">
-    <div class="container has-text-centered">
-  <div class="home-page">
-    <h1 class="title">Welcome to <b>Archive.Earth</b></h1>
+ 
+<div class="home-page">
+    <h1>Welcome to <b>Archive.Earth</b></h1>
     <!--
     <div class="folder">
       <img src="/assets/archive-earth-coloured-logo.svg" alt="archive-earth-coloured-logo">
@@ -10,7 +8,7 @@
     -->
 
     <div class="globe">
-      <img src= '<%= Routes.static_path(@conn, "/images/globe.png") %>' alt="globe">
+      <img src='<%= Routes.static_path(@conn, "/images/globe.png") %>' alt="globe">
     </div>
     
 
@@ -21,6 +19,3 @@
       </div>
     </div>
   </div>
-  </div>
-  </div>
-  </section>

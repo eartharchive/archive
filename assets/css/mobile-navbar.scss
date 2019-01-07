@@ -1,0 +1,58 @@
+.menu-overlay{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	z-index: 10;
+	background-color: #ffffff;
+	opacity: .95;
+	border-radius: 50%;
+	top: -100px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-color: #333;
+	border-width: 2px;
+}
+.mobile-nav{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+
+.mobile-nav .logo{
+	float: left;
+	width: 120px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.mobile-nav .menu-toggle-btn{
+	float: right;
+	color: #999999;
+}
+
+.mobile-nav .menu-toggle-btn .icon{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}
+
+.mobile-nav .menu-toggle-btn .icon:nth-child(2){
+	display: none;
+}
+
+.mobile-nav .menu{
+	clear: both;
+}
+
+.mobile-nav .menu li a{
+    color: rgba(26, 51, 21, 1.0);
+		font-size: 30px;
+		font-weight: 700;
+}
+
+.mobile-nav .menu li {
+    margin-bottom: 20px;
+}

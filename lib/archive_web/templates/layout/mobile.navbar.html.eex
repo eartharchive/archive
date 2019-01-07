@@ -1,21 +1,37 @@
-<nav class="navbar is-primary is-hidden-tablet">
-<div class="container">
-<div class="navbar-brand">
-      <a class="navbar-item" href="/" style="font-weight:bold;">
+
+
+<div class="menu-overlay"></div>
+	<nav class="mobile-nav">
+    <div class="logo">
+      <router-link to="/">
         <img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg") %>' alt="archive-earth-logo">
-      </a>
-      <span class="navbar-burger burger" data-target="navMenu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
+      </router-link>
     </div>
-<div id="navMenu" class="navbar-menu">
-<div class="navbar-end">
-        <a href="/about" class="navbar-item is-active">About</a>
-        <a href="/news" class="navbar-item">News</a>
-        <a href="/follow" class="navbar-item">Follow</a>
-      </div>
-</div>
-</div>
-</nav>
+		
+		<div class="menu-toggle-btn" @click="toggleMenu">
+			<b-icon
+					icon="menu"
+					size="is-large"
+					id="burger-menu-btn"
+					>
+			</b-icon>
+			<b-icon
+					icon="close"
+					size="is-large"
+					id="close-menu-btn"
+					>
+			</b-icon>
+		</div>
+
+    <ul class="menu" v-if="menu">
+      <li>
+        <a href="/about">About</a>
+      </li>
+      <li>
+        <a href="/news">News</a>
+      </li>
+      <li>
+        <a href="/follow">Follow</a>
+      </li>
+    </ul>
+  </nav>

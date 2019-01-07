@@ -1,0 +1,52 @@
+
+.follow-page{
+    padding-top: 25%;
+}
+.follow-page .title h1{
+    font-weight: 200;
+    font-size: 53px;
+    text-align: center;
+}
+.follow-page .title h1 span{
+    display: block;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.follow-page .field{
+    margin: 0 10% 3% 10%;
+
+}
+
+.follow-page .field input{
+    font-size: 30px;
+    border-color: #969696;
+    border-width: 2px;
+    box-shadow: none;
+    background-color: white;
+}
+
+.follow-page .btn .button{
+    border-color: #969696;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+.follow-page .btn .button:hover{
+    background-color: #f8f8f8;
+}
+
+@media screen and (max-width:768px) {
+	.follow-page .title h1{
+        font-size: 37px;
+    }
+    .follow-page .title h1 span{
+        font-size: 40px;
+    }
+    .follow-page .field input{
+        font-size: 24px;
+    }
+    .follow-page .btn .button{
+        font-size: 24px;
+    }
+}

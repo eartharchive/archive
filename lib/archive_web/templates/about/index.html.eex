@@ -1,7 +1,7 @@
- <section class="hero">
- <div class="hero-body">
-    <div class="container has-text-centered">
-    <h1 class="title">Follow</b></h1>
+<div>
+    <header class="header">About <b>Archive.Earth</b></header>
+
+    <div class="about-page">
+      <p>The goal of Archive.Earth is immutable, uncensorable, and globally accessible infrastructure for environmental knowledge, that can be drawn on by others to enhance use of environmental information in the online world. Its content is of highest possible spatiotemporal resolution, regularly updated from peer-reviewed literature then further filtered by expert committees. The datasets are then further made available for use by others, ranging from farmers and agronomists, to government actors across scales.</p>
+    </div>
   </div>
-  </div>
-  </section>
