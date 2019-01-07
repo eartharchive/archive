@@ -1,6 +1,6 @@
         <div class="column is-1-tablet is-1-desktop is-1-widescreen is-hidden-mobile">
           <nav class="menu">
-            <a class="" href="#" style="font-weight:bold;">
+            <a class="" href="/" style="font-weight:bold;">
         <img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg") %>' alt="archive-earth-logo">
       </a>
   
