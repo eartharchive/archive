@@ -1,0 +1,26 @@
+ <section class="hero">
+ <div class="hero-body">
+    <div class="container has-text-centered">
+  <div class="home-page">
+    <h1 class="title">Welcome to <b>Archive.Earth</b></h1>
+    <!--
+    <div class="folder">
+      <img src="/assets/archive-earth-coloured-logo.svg" alt="archive-earth-coloured-logo">
+    </div>
+    -->
+
+    <div class="globe">
+      <img src= '<%= Routes.static_path(@conn, "/images/globe.png") %>' alt="globe">
+    </div>
+    
+
+    <div class="folder-wrapper">
+      <div class="inner">
+        <img class="back" src='<%= Routes.static_path(@conn, "/images/rectangle@2x.png") %>' alt="folder-back">
+        <img class="front" src='<%= Routes.static_path(@conn, "/images/rectangle-front.png") %>' alt="folder-front">
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
