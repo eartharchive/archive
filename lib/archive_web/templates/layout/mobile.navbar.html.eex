@@ -1,37 +1,24 @@
-
-
-<div class="menu-overlay"></div>
-	<nav class="mobile-nav">
+<div class="is-block-mobile">
+  <div class="menu-overlay"></div>
+  <nav class="mobile-nav">
     <div class="logo">
-      <router-link to="/">
-        <img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg") %>' alt="archive-earth-logo">
-      </router-link>
+      <a href="/">
+        <img
+          src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg"); %>'
+          alt="archive-earth-logo"
+        />
+      </a>   
     </div>
-		
-		<div class="menu-toggle-btn" @click="toggleMenu">
-			<b-icon
-					icon="menu"
-					size="is-large"
-					id="burger-menu-btn"
-					>
-			</b-icon>
-			<b-icon
-					icon="close"
-					size="is-large"
-					id="close-menu-btn"
-					>
-			</b-icon>
-		</div>
 
-    <ul class="menu" v-if="menu">
-      <li>
-        <a href="/about">About</a>
-      </li>
-      <li>
-        <a href="/news">News</a>
-      </li>
-      <li>
-        <a href="/follow">Follow</a>
-      </li>
+    <div id="menu-toggle-btn">
+      <span class="mdi mdi-menu" id="burger-menu-btn"></span>
+      <span class="mdi mdi-close" id="close-menu-btn"></span>
+    </div>
+
+    <ul class="menu" id="menu">
+      <li><a href="/about">About</a></li>
+      <li><a href="/news">News</a></li>
+      <li><a href="/follow">Follow</a></li>
     </ul>
   </nav>
+</div>

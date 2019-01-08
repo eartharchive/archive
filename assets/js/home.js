@@ -19,3 +19,4 @@ function animateGlobe() {
 
 setGlobeDrop()
 animateGlobe();
+

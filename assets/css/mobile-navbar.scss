@@ -28,23 +28,25 @@
 	margin-left: 10px;
 }
 
-.mobile-nav .menu-toggle-btn{
+.mobile-nav #menu-toggle-btn{
 	float: right;
 	color: #999999;
 }
 
-.mobile-nav .menu-toggle-btn .icon{
+.mobile-nav #menu-toggle-btn span{
 	position: absolute;
-	top: 30px;
-	right: 20px;
+	top: 10px;
+	right: 10%;
+	font-size: 60px;
 }
 
-.mobile-nav .menu-toggle-btn .icon:nth-child(2){
+.mobile-nav #menu-toggle-btn span:nth-child(2){
 	display: none;
 }
 
 .mobile-nav .menu{
 	clear: both;
+	display: none;
 }
 
 .mobile-nav .menu li a{

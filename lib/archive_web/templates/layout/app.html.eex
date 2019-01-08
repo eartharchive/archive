@@ -20,6 +20,7 @@
 
     <div class="main container">
       <%= render "navbar.html", assigns %>
+      <%= render "mobile.navbar.html", assigns %>
       <!--<mobile-navbar class="mobile-navbar is-block-mobile"/>-->
       <div class="contents">
         <%= render @view_module, @view_template, assigns %>
