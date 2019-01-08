@@ -25,6 +25,25 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
+config :archive, :generators,
+  binary_id: true
+
+config :archive, Archive.Repo, migration_primary_key: [name: :uuid, type: :binary_id]
+
+config :ueberauth, Ueberauth,
+base_path: "/auth",
+providers: [
+  identity: {Ueberauth.Strategy.Identity, [
+    callback_methods: ["POST"],
+    nickname_field: :username,
+    param_nesting: "user",
+    uid_field: :username
+  ]},
+  # facebook: {Ueberauth.Strategy.Facebook, [profile_fields: "name,email,about"]},
+  # linkedin: {Ueberauth.Strategy.LinkedIn, [default_scope: "r_basicprofile r_emailaddress"]},
+  github: { Ueberauth.Strategy.Github, [default_scope: "user:email"] }
+]
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env()}.exs"
