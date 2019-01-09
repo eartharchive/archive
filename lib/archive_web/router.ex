@@ -20,6 +20,15 @@ defmodule ArchiveWeb.Router do
     get "/about", AboutController, :index
     get "/news", NewsController, :index
     get "/follow", FollowController, :index
+    resources "/users", UserController, only: [:new, :create]
+  end
+
+  scope "/auth", ArchiveWeb do
+    pipe_through :browser
+
+    get "/:provider", AuthController, :request
+    get "/:provider/callback", AuthController, :callback
+    post "/identity/callback", AuthController, :identity_callback
   end
 
   # Other scopes may use custom stacks.

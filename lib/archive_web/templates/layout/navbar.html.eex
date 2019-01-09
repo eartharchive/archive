@@ -29,8 +29,8 @@
         </a>
     </div>
     <ul class="menu">
-        <li><a href="/about">About</a></li>
+        <li><a href="/about">Archive</a></li>
         <li><a href="/news">News</a></li>
-        <li><a href="/follow">Follow</a></li>
+        <li><a href="/follow">Contact</a></li>
     </ul>
 </nav>

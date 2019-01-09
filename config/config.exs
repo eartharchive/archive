@@ -28,7 +28,7 @@ config :phoenix, :json_library, Jason
 config :archive, :generators,
   binary_id: true
 
-config :archive, Archive.Repo, migration_primary_key: [name: :uuid, type: :binary_id]
+config :archive, Archive.Repo, migration_primary_key: [name: :id, type: :binary_id]
 
 config :ueberauth, Ueberauth,
 base_path: "/auth",

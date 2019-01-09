@@ -8,7 +8,7 @@
     -->
 
     <div class="globe">
-      <img src='<%= Routes.static_path(@conn, "/images/globe.png") %>' alt="globe">
+      <img src='<%= Routes.static_path(@conn, "/images/globe-300px.png") %>' alt="globe">
     </div>
     
 
