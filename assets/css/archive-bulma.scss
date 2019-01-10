@@ -1,4 +1,4 @@
-// @charset "utf-8";
+@charset "utf-8";
 
 // // Import a Google Font
 // //@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
@@ -9,13 +9,13 @@
 // $brown: #757763;
 // $beige-light: #D0D1CD;
 // $beige-lighter: #EFF0EB;
-// $grey: #999999;
+$grey: #999999;
 
 // // Update Bulma's global variables
 // $family-sans-serif: "Nunito", sans-serif;
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
-// $primary: $grey;
+$primary: $grey;
 // $link: $pink;
 // $widescreen-enabled: false;
 // $fullhd-enabled: false;
