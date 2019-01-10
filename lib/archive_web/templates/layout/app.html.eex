@@ -26,22 +26,20 @@ window.cookieconsent.initialise({
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   </head>
   <body>
-    
-    <!--
+ 
     <header>
     <%= render "mobile.navbar.html", assigns %>      
     </header>
-    -->
 
-    <div class="main container">
-      <%= render "navbar.html", assigns %>
-      <%= render "mobile.navbar.html", assigns %>
-      <!--<mobile-navbar class="mobile-navbar is-block-mobile"/>-->
-      <div class="contents">
-        <%= render @view_module, @view_template, assigns %>
-      </div>
-      <div class="polygon"></div>
-    </div>
+   <section>
+       <div class="columns">
+        <%= render "navbar.html", assigns %>
+        <div class="column">
+         <%= render @view_module, @view_template, assigns %>
+         </div>
+       </div>
+    </section>
+</div>
     
     <%= render "scripts.html", assigns %>
   </body>

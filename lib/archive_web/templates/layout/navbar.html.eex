@@ -1,36 +1,19 @@
-
-<!--
 <div class="column is-1-tablet is-1-desktop is-1-widescreen is-hidden-mobile">
-<nav class="menu">
-  <a class="" href="/" style="font-weight:bold;">
-<img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg") %>' alt="archive-earth-logo">
-</a>
-
-  <ul class="menu-list">
-    <li>
-      <a class='<%="#{active_class(ErmWeb.HomeController, @conn)}"%>' href="/about">About</a>
-    </li>
-    <li>
-      <a class='<%="#{active_class(ErmWeb.MapController, @conn)}"%>' href="/news">News</a>
-    </li>
-    <li>
-      <a class='<%="#{active_class(ErmWeb.ActivityController, @conn)}"%>' href="/follow">Follow</a>
-    </li>
-  </ul>
-</nav>
-</div>
--->
-
-
-<nav class="nav-bar is-hidden-mobile">
-    <div class="logo">
-        <a href="/">
-            <img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg") %>' alt="archive-earth-logo">
-        </a>
-    </div>
-    <ul class="menu">
-        <li><a href="/about">Archive</a></li>
-        <li><a href="/news">News</a></li>
-        <li><a href="/follow">Contact</a></li>
-    </ul>
-</nav>
+          <nav class="menu">
+            <a class="" href="/" style="font-weight:bold;">
+        <img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo.svg") %>' alt="archive-earth-logo" style="height: 50px;">
+      </a>
+  
+            <ul class="menu-list">
+              <li>
+                <a class='<%="#{active_class(ErmWeb.AboutController, @conn)}"%>' href="/about">About</a>
+              </li>
+              <li>
+                <a class='<%="#{active_class(ErmWeb.NewsController, @conn)}"%>' href="/news">News</a>
+              </li>
+              <li>
+                <a class='<%="#{active_class(ErmWeb.FollowController, @conn)}"%>' href="/follow">Follow</a>
+              </li>
+            </ul>
+          </nav>
+        </div>

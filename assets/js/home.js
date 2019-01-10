@@ -1,22 +1,34 @@
 import TweenLite from "gsap";
 
-var globeDrop = 250;
+const landing = document.getElementById('landing');
 
-function setGlobeDrop() {
-  if (window.innerWidth >= 768) {
-    globeDrop = 250;
-  } else {
-    globeDrop = 250;
-  }
-}
-
-function animateGlobe() {
-  TweenLite.to(".globe", 1, {
-    y: globeDrop, //490
-    rotation: 180
+if (landing) {
+  window.addEventListener( 'scroll', function() {
+    console.log(window.scrollY);
+    // adjust size of element top when scroll more than ...
   });
+
+  let globeDrop = 250;
+
+  function setGlobeDrop() {
+    if (window.innerWidth >= 768) {
+      globeDrop = 250;
+    } else {
+      globeDrop = 250;
+    }
+  }
+
+  function animateGlobe() {
+    TweenLite.to(".globe", 1, {
+      y: globeDrop, //490
+      rotation: 180
+    });
+  }
+
+  setGlobeDrop()
+  animateGlobe();
+
 }
 
-setGlobeDrop()
-animateGlobe();
+
 

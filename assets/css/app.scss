@@ -1,14 +1,16 @@
 /* This file is for your main application css. */
 
-@import "./phoenix.css";
+//@import "./phoenix.css";
 
 //@import "~bulma/bulma.sass";
 
+@import "./archive-bulma.scss";
 @import "./archive.scss";
-@import "./index.scss";
-@import "./navbar.scss";
-@import "./mobile-navbar.scss";
+//@import "./index.scss";
+//@import "./navbar.scss";
+//@import "./mobile-navbar.scss";
 @import "./home.scss";
-@import "./about.scss";
-@import "./news.scss";
-@import "./follow.scss";
+//@import "./about.scss";
+//@import "./news.scss";
+//@import "./follow.scss";
+//@import "./blog.scss";
