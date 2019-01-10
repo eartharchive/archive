@@ -12,12 +12,20 @@
     </div>
     <div id="navMenu" class="navbar-menu">
       <div class="navbar-start">
-        <a href="/about" class='navbar-item <%="#{active_class(ErmWeb.AboutController, @conn)}"%>'>About</a>
-        <a href="/news" class='navbar-item <%="#{active_class(ErmWeb.NewsController, @conn)}"%>'>News</a>
-        <a href="/follow" class='navbar-item <%="#{active_class(ErmWeb.FollowController, @conn)}"%>'>Follow</a>
+        <a href="/" class='navbar-item'>Archive.Earth</a>
+        <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>About</a>
+        <a href="/news" class='navbar-item <%="#{active_class(ArchiveWeb.NewsController, @conn)}"%>'>News</a>
+        <a href="/follow" class='navbar-item <%="#{active_class(ArchiveWeb.FollowController, @conn)}"%>'>Follow</a>
       </div>
       <div class="navbar-end">
-        
+        <div class="buttons">
+          <a class="button is-primary">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light">
+            Log in
+          </a>
+        </div>
       </div>
     </div>
   </div>
