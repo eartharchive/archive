@@ -2,10 +2,11 @@
 <div class="hero-body">
     <div class="container has-text-centered">
     <div id="landing" class="home-page">
-      <h1 class="title">
-        Welcome to <b>Archive.Earth</b>
-      </h1>
-      <!--<img src='<%= Routes.static_path(@conn, "/images/globe-300px.png") %>' alt="globe"> -->
+      <div class="title">
+        <h1> Welcome to <b>Archive.Earth</b></h1>
+        <img src='<%= Routes.static_path(@conn, "/images/globe-300px.png") %>' alt="globe">
+      </div>
+      
       <div class="subtitle">
             <div class="folder-wrapper">
       <div class="inner">
