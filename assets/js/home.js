@@ -3,9 +3,12 @@ import TweenLite from "gsap";
 const landing = document.getElementById('landing');
 
 if (landing) {
+  const globe = document.getElementById('globe');
   window.addEventListener( 'scroll', function() {
     console.log(window.scrollY);
     // adjust size of element top when scroll more than ...
+    globe.style.width = window.scrollY + "px;";
+
   });
 
   let globeDrop = 250;

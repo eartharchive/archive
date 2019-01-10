@@ -37,6 +37,7 @@ window.cookieconsent.initialise({
          <%= render @view_module, @view_template, assigns %>
          </div>
        </div>
+      
     </section>
 </div>
     

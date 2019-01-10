@@ -1,10 +1,20 @@
 <section class="hero">
+  <div class="hero-header has-text-centered">
+    <div class="title">
+      <h1> Let's <b>Archive.Earth</b></h1>
+    </div>
+    <img id="globe" src='<%= Routes.static_path(@conn, "/images/globe-300px.png") %>' alt="globe">
+    <div class="title">
+    <i class="far fa-arrow-alt-circle-down"></i>
+    </div>
+  </div>
+
 <div class="hero-body">
     <div class="container has-text-centered">
     <div id="landing" class="home-page">
       <div class="title">
-        <h1> Welcome to <b>Archive.Earth</b></h1>
-        <img src='<%= Routes.static_path(@conn, "/images/globe-300px.png") %>' alt="globe">
+        
+       
       </div>
       
       <div class="subtitle">
@@ -17,7 +27,12 @@
       </div>
     </div>
   </div>
+
   </div>
+<div class="hero-body">
+   <p>The goal of Archive.Earth is immutable, uncensorable, and globally accessible infrastructure for environmental knowledge, that can be drawn on by others to enhance use of environmental information in the online world. Its content is of highest possible spatiotemporal resolution, regularly updated from peer-reviewed literature then further filtered by expert committees. The datasets are then further made available for use by others, ranging from farmers and agronomists, to government actors across scales.</p>
+
+</div>
 
 </section>
 
