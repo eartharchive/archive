@@ -18,8 +18,50 @@
 .parent{
     position: relative;
 }
-.over-image{
+
+.home .folder{
+    position: relative;
+    height: 250px;
+    opacity: 0;
+}
+
+.home .folder::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+  
+.home .folder .folder-front{
     position: absolute;
-    top: 30%;
-    left: 10%;
+    width: 394px;
+    bottom: 2px;
+    left: 74px;
+    right: 0;
+    margin: auto;
+    z-index: 11;
+}
+
+.home .folder .folder-back{
+    height: 250px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9;
+}
+
+.home #globe{
+    position: relative;
+    z-index: 10;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.folder.opacityTransition{
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    opacity: 1 !important;
 }
