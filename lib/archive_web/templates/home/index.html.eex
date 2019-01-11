@@ -5,34 +5,33 @@
     </div>
     <img id="globe" src='<%= Routes.static_path(@conn, "/images/globe-300px.png") %>' alt="globe">
     <div class="title">
-    <i class="far fa-arrow-alt-circle-down"></i>
+      <i class="far fa-arrow-alt-circle-down"></i>
     </div>
   </div>
 
-<div class="hero-body">
+  <div class="hero-body">
     <div class="container has-text-centered">
-    <div id="landing" class="home-page">
-      <div class="title">
-        
-       
+
+      <p>We introduce Archive.Earth: an open platform for collective memory that is distributed, permanent and
+        uncensorable. The main responsibility is supply and maintain ‘bindings’ for data upload/retrieval to and from
+        immutable repositories, focused on certain data types. As this technology, applied properly, also brings
+        potential to engage peer-review and ‘web-scale’ innovation, the second focus is engage scientific, commercial,
+        and government processes to publish or integrate the toolkit into their own evidence-based activity. As a
+        collective, our shared end-goals for this project are to:</p>
+
+      <div class="parent">
+        <img src='<%= Routes.static_path(@conn, "/images/rectangle@2x.png") %>' alt="folder-back">
+        <img class="over-image" src='<%= Routes.static_path(@conn, "/images/rectangle-front.png") %>' alt="over-image">
+        </span>
       </div>
-      
-      <div class="subtitle">
-            <div class="folder-wrapper">
-      <div class="inner">
-        <img class="back" src='<%= Routes.static_path(@conn, "/images/rectangle@2x.png") %>' alt="folder-back">
-        <img class="front" src='<%= Routes.static_path(@conn, "/images/rectangle-front.png") %>' alt="folder-front">
-      </div>
-    </div>
-      </div>
+
+
     </div>
   </div>
+  
+  <div class="hero-body">
+
 
   </div>
-<div class="hero-body">
-   <p>The goal of Archive.Earth is immutable, uncensorable, and globally accessible infrastructure for environmental knowledge, that can be drawn on by others to enhance use of environmental information in the online world. Its content is of highest possible spatiotemporal resolution, regularly updated from peer-reviewed literature then further filtered by expert committees. The datasets are then further made available for use by others, ranging from farmers and agronomists, to government actors across scales.</p>
-
-</div>
 
 </section>
-

@@ -15,12 +15,316 @@
                             </div>
                         </div>
                         <div class="content article-body">
-                            <p>In his last Wikipedia fundraising email of 2018, Jimmy Wales wrote “just as our society will collapse without sustainable shepherding of the environment, the information that underpins the internet must be protected”. Though a convenient analogy, relatively few are aware the extent to which environmental health depends on digital systems that monitor, transmit, store, and process information, or individuals/groups influencing this. Beyond an encyclopedia, just imagine the potential of a universal, uncensorable, scientific knowledge store on Earth.</p>
-                            <p>We introduce Archive.Earth: an open platform for collective memory that is distributed, permanent and uncensorable. The main responsibility is supply and maintain ‘bindings’ for data upload/retrieval to and from immutable repositories, focused on certain data types. As this technology, applied properly, also brings potential to engage peer-review and ‘web-scale’ innovation, the second focus is engage scientific, commercial, and government processes to publish or integrate the toolkit into their own evidence-based activity. As a collective, our shared end-goals for this project are to:</p>
-                            <h3 class="has-text-centered">How to properly center tags in bulma?</h3>
-                            <p> Proper centering of tags in bulma is done with class: <pre>level-item</pre>
-                                Voluptat ut farmacium tellus in metus vulputate. Feugiat in fermentum posuere urna nec. Pharetra convallis posuere morbi leo urna molestie.
-                                Accumsan lacus vel facilisis volutpat est velit egestas. Fermentum leo vel orci porta. Faucibus interdum posuere lorem ipsum.</p>
+                        
+<p>
+In his last Wikipedia fundraising email of 2018, Jimmy Wales wrote <em>"just as
+our society will collapse without sustainable shepherding of the environment,
+the information that underpins the internet must be protected"</em>. Though a
+convenient analogy, relatively few are aware the extent to which environmental
+health depends on digital systems that monitor, transmit, store, and process
+information, or individuals/groups influencing this. Beyond an encyclopedia,
+just imagine the potential of a universal, uncensorable, scientific knowledge
+store on Earth.
+</p>
+<p>
+<strong>We introduce Archive.Earth: an open platform for collective memory that
+is distributed, permanent,  and uncensorable. The main responsibility is supply
+and maintain 'bindings' for data upload/retrieval to and from immutable
+repositories, focused on certain data types. As this technology, applied
+properly, also brings potential to engage peer-review and 'web-scale'
+innovation, the second focus is engage scientific, commercial, and government
+processes to publish or integrate the toolkit into their own evidence-based
+activity. As a collective, our shared end-goals for this project are
+to:</strong>
+</p><ol>
+<li><strong>answer the call for more robust computer media, by its very
+pioneers. </strong>
+<li><strong>support the move towards open and reproducible scientific methods,
+</strong>
+<li><strong>help repair this planet's suitability for natural/human habitation,
+</strong></li></ol>
+<p>
+<strong>This article elaborates why Archive.Earth is needed, its high-level
+design, work to date, and plans. We feel its time is <em>now</em>, as:<br>
+</strong>
+</p><ul>
+<li>Environmental sciences engage multiple scales of space and time - large
+areas and many generations, often beyond what people can relate to. They use
+remotely-sensed data that even if made 'open' as a raw or refined product,
+remains useless<em> </em>to many. <ul>
+<li>In general, science is increasingly digital, from tools for data capture and
+storage to workflows in analysis, publication, dissemination, and learning. As
+it grapples to keep up [1], there seems little thought how this could be
+exploited to tamper/manipulate. <ul>
+<li>As public concern on environmental/human habitat health grows, so will
+interests to obscure or tamper with impact assessments and research, science
+outreach. Already, many digital systems are vulnerable to deletion, editing, and
+censorship in some form.
+<h2>
+Authorities - and our collective memories - need better storage</h2>
+</li></ul>
+</li></ul>
+</li></ul>
+<p>
+Despite some loud critics dismissing environmental politics as a concern for the
+privileged, evidence shows that socio-political power is positively related to
+control over environmental narratives. We list key recent examples below, but
+reinforce that humans have a deep history of re-interpreting natural events in
+religious doctrine and national mythology, such as China's Gun-Yu <a
+href="https://econet.archive.earth/tx/w7xPCISPARMYgkO3N9q7T0TuE8kRB_8SP1EpTp-D2h8/data.html">flood</a>,
+Japan's Kamikaze <a
+href="http://econet.archive.earth/tx/RK2oo3hbH3nGd65gonOhJH_7_1-XKYCyjQkwQ3-i0t8/data.html">wind</a>,
+and Cascadia's <a
+href="https://econet.archive.earth/tx/n8efa-cx5ceLTlIOPFw-vVhEL_2N2kP06R4FX1_VtNk/data.html">megathrust</a>.
+The latter case illustrates especially well how varied (oral, written)
+recordkeeping systems affect the accuracy of recall!
+</p>
+<p>
+Before even taking office in 2019 as Minister of Environment for
+<strong>Brazil</strong>, Ricardo Salles (<a
+href="https://econet.archive.earth/tx/v9OzKfnAD_FPocQRXrx-Od5bPFd-sj8NE68YeGFxp9s/data.html">left</a>)<strong>
+</strong>was convicted for breach of trust as the Secretary of Environment in
+São Paulo State, having "modified maps...amended [a] draft management plan [and]
+persecuted employees of Forest Foundation to benefit business" [2]. Despite a
+ban from <em>elected </em>office, Salles is now <em>appointed</em> as Minister,
+and promising to "make Brazil's environmental licensing and fines system
+transparent by putting it online." Given earlier pledges to expand farming and
+mining in the Amazon, and dismissal of deforestation and climate change risks as
+"secondary" [3], many are rightly concerned this 'transparency' may be a
+smokescreen.
+</p>
+<p>
+Salles wouldn't be first! In 2012, <strong>Canada</strong>'s<strong>
+</strong>government slashed protections for waterways and closed 7 of 11 science
+libraries for "digitization" - which then didn't actually occur. Akin to book
+burnings of history, yet this went on despite protest by thousands of
+scientists, low disclosed saving, and headlines like <em>Death of Evidence</em>.
+By 2014, 6% was scanned due to "budget limits", the rest dumped or scavenged
+[4]. Many saw a move to foil resistance to industry by removing records useful
+to accountability [5]. Among libraries closed was <br>
+St. Andrew's Biological Station, used by Carson for <em>Silent Spring</em> [6].
+While listed on Wikipedia List of Destroyed Libraries [7], the contents are now
+lost.
+</p>
+<p>
+Even if data isn't outright destroyed, a system of hyperlinks to
+government-served websites is vulnerable to political manipulation. In the
+<strong>U.S.</strong> following Trump's inauguration, changes were made to
+websites of many agencies to hide resources on climate, pollution, endangered
+species, etc.. Anticipating this, departing officials ran a 'snapshot' that
+(while incomplete) let others sue for republication [8], though most old links
+are <a
+href="https://archived.earth/tx/rAyqgvL4z3NFI6Nxe-jsd5cetota4NXXaiN9R74R32Y/data.html">broken</a>,
+e.g. epa.gov/climatechange. <br>
+</p>
+<p>
+Why does this matter? <br>
+<br>
+In 1995, the fisheries scientist D. Pauly coined the term "shifting baselines"
+for generational amnesia/acceptance of extinction, degraded ecosystems, etc.
+[9]. Visible only to those aware of this history, the issue has been observed
+globally, greatly concerning scientists and educators [10]. <br>
+</p>
+<h2>Technical Background</h2>
+<p>
+The examples of environmental knowledge manipulation above show that despite
+popularity of tools like email, websites, and databases, these can be a mirage
+of reliability. This is a new reality, as hard-copy (whether a book, letter, or
+printout) is - by virtue of existing - subject to physical laws requiring
+contact to alter. This embedded resistance to alteration, censorship, or
+destruction, especially when geographically divided. Accreting such records into
+libraries helped governance and commerce, not to mention science and law.
+However, as we are often reminded by Alan Kay, development of ephemeral
+communication by telephone went against this, and was resisted by some as a
+result [<a
+href="https://archived.earth/tx/E71El4wFbdmzogEBPMYsgVwNivpUqjucI1WXiL7AEVg/data.html">11</a>].
+</p>
+<p>
+A key computing thought leader is Vannevar Bush. Becoming known in the 1930s for
+building an analog computer, he then was director of the WWII-era Office of
+Scientific Research and Development, overseeing thousands of scientists in
+application of science to war. At its end, Bush published <em>As We May
+Think</em> - a Sci-Fi vision for peaceful applications, with the simple logic
+that "humanity has piled up a staggering body of knowledge, so staggering, in
+fact, that [people] of learning have great difficulty in finding and using the
+parts they want. It is the task of science to make this store of knowledge more
+available, to aid human memory" [<a href="http://worrydream.com/refs/Bush - As
+We May Think (Life Magazine 9-10-1945).pdf">12</a>].
+</p>
+<p>
+Bush asked readers imagine "a future device for individual use, which is a sort
+of mechanized private file and library...an enlarged intimate supplement to
+memory. It needs a name, and… <em>'Memex' </em>[portmanteau of memory+extender]
+will do." The need for highly robust data storage is repeatedly emphasized
+throughout the text, including the criteria "it should be possible to [beat] the
+mind decisively in regard to permanence and clarity of the items resurrected"
+[<a href="http://worrydream.com/refs/Bush - As We May Think (Life Magazine
+9-10-1945).pdf">13</a>].
+</p>
+<p>
+Another important leader in computing was Doug Engelbart, most recently
+commemorated on the 50th anniversary of his 'Mother of all demos.' While the
+Demo was a public arrival, Engelbart et al. had worked in computing for <br>
+over decade, since reading <em>As We May Think</em>. Engelbart also saw a need
+for advanced storage, for collaboration (such as edit history, permissions,
+etc.). Building on Bush, Engelbart made tools to enter, curate, share and
+explore, informed by study of complex work, which then informed the design of
+his hard- and software personal computer. While the example user of his seminal
+1962 <em>Augmenting Human Intellect </em>was an architect [<a
+href="http://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf">14</a>],
+Engelbart is cited <em>before</em> the 1968 Demo stating that "at some point in
+time this could change the way...farmers in rice fields in Asia would plan their
+crops" [<a
+href="https://www.youtube.com/watch?v=zFgEOHcKqto&feature=youtu.be&t=49">15</a>].
+</p>
+<h2>
+<strong>What is Archive.Earth?</strong></h2>
+<p>
+While Bush and Engelbart have now both passed away, when asked in 2006 how much
+of his vision was achieved, Engelbart retorted "about 2.8%" [<a
+href="https://archived.earth/tx/y6a1Y-2YvAVgTnIb07lA3Q3Ve_hN088BJBiq2AKh84U/data.html">16</a>].
+Combined frustration on topics including poorly-implemented hyperlinks, a focus
+on personal tools over collaboration, lack of more robust storage are considered
+to have motivated this comment. Outrageously, a decade later the issues not only
+remain unsolved, but forgotten. Our 'smart' phones share the flaw of their
+namesake in failing to truly augment our individual and collective memories:
+data can be lost, overwritten or redirected unless steps are taken, beyond the
+awareness of most users.
+</p>
+<p>
+The team behind this project was concerned public knowledge remains inadequately
+protected and -accessible. We felt a true innovation would be an independent,
+open-access digital portal for critical, at-risk information to be archived
+<em>permanently</em>,<em> </em>without risk of later destruction or
+manipulation. After research, it was clear recent advances make potent new
+planetary-scale capabilities possible. On advancing the functionality, we
+decided to publish and establish an independent Foundation to support its code
+as well as quality data collection, validation, and publication <em>for others
+to incorporate in their own processes</em>. Key elements of this include:<br>
+</p><ul>
+<li>Publicly-funded, open-access monitoring (e.g. Landsat and Sentinel
+satellites) and repositories that host data and/or processing algorithms.<br>
+<li>Centralized and distributed compute/storage/communication infrastructures to
+innovate around data access and reliability.<br>
+<li>Global availability of mobile devices for participation, data submission,
+accuracy-checking, accessibility.</li></ul>
+<p>
+<br>
+The project is:
+</p>
+<p>
+    <strong>Archive.Earth</strong> is a domain at which to submit data, with
+support for file types in environmental data. If subsidy isn't needed, it
+remains free to use Archive.Earth to to store/recall data, provided costs are
+paid. If sought, this is also the organization to which subsidy requests are
+submitted.
+</p>
+<p>
+    <strong>Archived.Earth</strong> is the root for referencing, where stored
+data can be queried to explore and download in a simple interface. Features will
+include 'follow area' for notifications of related new data uploads, and
+automatic backup of an area to local nodes.
+</p>
+<h2>What is a Blockweave?</h2>
+<p>
+As the term implies, this data structure has components popularly associated to
+"blockchain," but is modified in ways making the latter term technically
+inappropriate. Rather than "digital cash" of distributed <em>ledgers</em>, the
+aim is a content-agnostic infrastructure for on-chain <em>storage </em>in a "pay
+once, store forever" model for archival that is "parallel to the internet."
+Still at an early stage, blockweaves (also known by their developer company
+Arweave) were created by a team with literacy in distributed architectures,
+indicated by use of the Erlang language.
+</p>
+<p>
+From an environmental perspective, the design is poetic: it leverages the
+inability of the sovereign Westphalian community to reach consensus, to allow
+maintenance of a data system beyond their control, that can help keep
+accountability. However, user features developed by Arweave to date have been to
+store/recall websites or documents; while of critical importance (as the Trump
+example illustrates) and features to support academic, government, or medical
+data are in development, none yet support spatio-temporal content.
+</p>
+<h2>
+Archive.Earth development so far</h2>
+<p>
+After evaluating options for the requirement of secure, global data storage, the
+Archive.Earth architecture incorporated a technology called "blockweave." Being
+engaged in Erlang/Elixir, we became aware of <a
+href="https://github.com/ArweaveTeam/arweave">Arweave</a> in late 2017 while
+unreleased but in simulated net testing [<a
+href="https://archived.earth/tx/OmZmnwYSOOJyjQVRZg4R12TnMYlszWyTSw22RwKJF2s/data.html">17</a>].
+We backed the project and started evaluating its capability and relevance.
+</p>
+<p>
+Upload/recall testing began with Arweave's web extension, then extended into <a
+href="https://archived.earth/tx/46qhnGbORr5SzRs0-nrf0sgP1-PIIUPMCir2hNXMIX4/data.html">documents</a>
+and images (e.g. Satellite, <a
+href="https://archived.earth/tx/Hfw7-7t2IpjKI5j2DTVakmVq7CksROK-KMWPW6mqGTk/data.html">UAV</a>).
+As permanent storage is most relevant to high-value data, we began exploring how
+statistical rasters from environmental science can be uploaded/recalled. Due to
+technical advances, geostatistical data is increasingly high resolution - thus
+large - which is in tension with an incentive for granularity. The weave
+structure needed integration
+</p>
+<p>
+This drove creation of 'bindings' to upload/recall/view. To test this
+proof-of-concept we used soil organic carbon (SOC) stock in kg/m<sup>2</sup>
+data from <a href="http://opengeohub.org/">OpenGeoHub</a> [<a
+href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0169748">18</a>].
+So far, we have:
+</p><ol>
+<li>Selected polygon in OGH <a
+href="https://doi.org/10.5281/zenodo.1475453">dataset</a> from southern Spain
+(raster, 250m resolution).
+<li>Bulk archived this on weave in hierarchical tiles, each including
+id/citation metadata.
+<li>Made 'bindings' to index and view archived tiles in a web map (Leaflet).
+<li>Provided a sub-index for this area at <a
+href="https://ogh.archive.earth/tx/XOuTSqdp-qrkbOvprum6u8PkybPNE8xTHwe6T3CvVJs/data.html">OGH.Archive.Earth</a>,
+showing updates.
+<li>Spawned dedicated nodes to archive and serve this data.</li></ol>
+<h2>The path ahead</h2>
+<p>
+For uploaders
+</p><ul>
+<li>Ability to submit a dataset for review,
+<li>View the status of this,</li></ul>
+<p>
+For scientists
+</p><ul>
+<li>DOI-based data search and institution-specific servers,
+<li>Qualification-based commenting (integration with professional systems).
+<li>Monitoring of comment/update activity on selected datasets.
+<li>Tools to research/publish that take advantage of two way links and immutable
+data for new kinds of content (adapt TiddlyWiki to patch/diff,
+immutability?).</li></ul>
+<p>
+For public/general
+</p><ul>
+<li>Efficient search of archived data.
+<li>Show visual connection between archived data.
+<li>Ability to vote on submitted data (open for public comment)
+<li>Ability to 'pull' data from a defined area in desired datasets, and
+subsequent updates.
+<li>Ability to verify data at any (spatial-temporal) scale, be advised of
+updates.
+<li>Ability to store just data significant to a location or other contextual
+rules.
+<li>Support for discovery/organization by association rather than
+index</li></ul>
+<p>
+Technical
+</p><ul>
+<li>Patching and diffing for efficient use of immutable data storage.
+<li>Integration with scientific and enterprise workflows, in legacy (new)
+'business logic'.
+<li>Tools to easily spawn your own node
+<li>Tools to easily tune local node for local serving or -archiving.</li></ul>
+<p>
+<strong><a
+href="https://docs.google.com/document/d/1rjQ_uXXg8JWdN59ft4ACLCqDvBL59IOKleEZRgZIOkI/edit?usp=sharing">Bibliography</a></strong>
+</p>
                         </div>
                     </div>
                 </div>

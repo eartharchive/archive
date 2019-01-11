@@ -13,3 +13,13 @@
         height: 200px;
       }
   }
+
+
+.parent{
+    position: relative;
+}
+.over-image{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}

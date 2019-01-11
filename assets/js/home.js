@@ -7,7 +7,8 @@ if (landing) {
   window.addEventListener( 'scroll', function() {
     console.log(window.scrollY);
     // adjust size of element top when scroll more than ...
-    globe.style.width = window.scrollY + "px;";
+    //globe.style.width = 
+    globe.style.transform = "translate(0px, " + window.scrollY + "px);";
 
   });
 

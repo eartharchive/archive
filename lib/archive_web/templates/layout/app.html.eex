@@ -24,22 +24,29 @@ window.cookieconsent.initialise({
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.3.92/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
-  </head>
-  <body>
- 
-    <header>
-    <%= render "navbar.html", assigns %>      
-    </header>
+</head>
 
-   <section>
-       <div class="columns">
-        <div class="column">
-         <%= render @view_module, @view_template, assigns %>
-         </div>
-       </div>
-      
-    </section>
-</div>
+  <body>
+
+  <section class="hero is-fullheight">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+     <%= render "navbar.html", assigns %>      
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <%= render @view_module, @view_template, assigns %>
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+ 
+  </div>
+</section>
+
     
     <%= render "scripts.html", assigns %>
   </body>
