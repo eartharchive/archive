@@ -18,3 +18,4 @@ import "phoenix_html"
 
 import "./navbar"
 import "./home"
+import"./cup1"

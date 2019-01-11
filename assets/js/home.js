@@ -1,4 +1,4 @@
-import TweenLite from "gsap";
+//import TweenLite from "gsap";
 
 const landing = document.getElementById('landing');
 
@@ -43,25 +43,25 @@ if (landing) {
     globe.style.webkitTransform = translateVal + scaleVal
   });
 
-  let globeDrop = 250;
+  // let globeDrop = 250;
 
-  function setGlobeDrop() {
-    if (window.innerWidth >= 768) {
-      globeDrop = 250;
-    } else {
-      globeDrop = 250;
-    }
-  }
+  // function setGlobeDrop() {
+  //   if (window.innerWidth >= 768) {
+  //     globeDrop = 250;
+  //   } else {
+  //     globeDrop = 250;
+  //   }
+  // }
 
-  function animateGlobe() {
-    TweenLite.to(".globe", 1, {
-      y: globeDrop, //490
-      rotation: 180
-    });
-  }
+  // function animateGlobe() {
+  //   TweenLite.to(".globe", 1, {
+  //     y: globeDrop, //490
+  //     rotation: 180
+  //   });
+  // }
 
-  setGlobeDrop()
-  animateGlobe();
+  // setGlobeDrop()
+  // animateGlobe();
 
 }
 

@@ -29,11 +29,18 @@ module.exports = (env, options) => ({
         }
       },
       {
+				test: /\.coffee$/,
+				loader: "coffee-loader"
+			},
+      {
         test: /\.s?css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
       }
     ]
   },
+  resolve: {
+		extensions: [".web.coffee", ".web.js", ".coffee", ".js"]
+	},
   plugins: [
     new MiniCssExtractPlugin({ filename: '../css/app.css' }),
     new CopyWebpackPlugin([{ from: 'static/', to: '../' }])

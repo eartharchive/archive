@@ -7,14 +7,17 @@
   },
   "dependencies": {
     "bulma": "0.7.2",
-    "gsap": "^2.0.2",
     "phoenix": "file:../deps/phoenix",
-    "phoenix_html": "file:../deps/phoenix_html"
+    "phoenix_html": "file:../deps/phoenix_html",
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "babel-loader": "^8.0.0",
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.2",
+    "coffescript": "0.0.1-security",
     "copy-webpack-plugin": "^4.5.0",
     "css-loader": "^0.28.10",
     "mini-css-extract-plugin": "^0.4.0",
