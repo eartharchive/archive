@@ -22,7 +22,7 @@
 .home .folder{
     position: relative;
     height: 250px;
-    opacity: 0;
+    //opacity: 0;
 }
 
 .home .folder::after{
@@ -35,14 +35,14 @@
     position: absolute;
     width: 394px;
     bottom: 2px;
-    left: 74px;
-    right: 0;
+    right: -74px;
+    left: 0;
     margin: auto;
     z-index: 11;
 }
 
 .home .folder .folder-back{
-    height: 250px;
+    height: 100%;
     position: absolute;
     left: 0;
     right: 0;
@@ -64,4 +64,45 @@
     -o-transition: .4s;
     transition: .4s;
     opacity: 1 !important;
+}
+
+@media screen and (max-width:500px){
+    
+}
+
+@media screen and (max-width:470px){
+    
+    .home .folder .folder-front{
+        width: 315px;
+        right: -60px;
+    }
+
+    
+    .home .folder{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:430px){
+    
+    .home .folder .folder-front{
+        width: 270px;
+        right: -60px;
+    }
+    
+    .home .folder{
+        height: 160px;
+    }
+}
+
+@media screen and (max-width:340px){
+    
+    .home .folder .folder-front{
+        width: 220px;
+        right: -60px;
+    }
+    
+    .home .folder{
+        height: 130px;
+    }
 }

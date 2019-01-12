@@ -11,22 +11,41 @@ if (landing) {
     //globe.style.width = 
     //globe.style.transform = "translate(0px, " + window.scrollY + "px);";
 
+    var translateThreshold = 300
+    var scaleThreshold = 0.7
+    var translateScaleFactor = 1000
+
+    if(window.innerWidth <= 470){
+      translateThreshold = 280
+      scaleThreshold = 0.55
+      translateScaleFactor = 600
+    }
+    if(window.innerWidth <= 430){
+      translateThreshold = 230
+      scaleThreshold = 0.5
+      translateScaleFactor = 400
+    }
+    if(window.innerWidth <= 340){
+      translateThreshold = 190
+      scaleThreshold = 0.5
+      translateScaleFactor = 400
+    }
+
     
-    var globeSize = (1000-window.scrollY) / 1000
+    var globeSize = (translateScaleFactor-window.scrollY) / translateScaleFactor
     var globeTranslate = 0
     console.log(globeSize);
     if(globeSize > 1){
       globeSize = 1
     }
-    if(globeSize < 0.7){
-      globeSize = 0.7
+    if(globeSize < scaleThreshold){
+      globeSize = scaleThreshold
     }
+    
+    
 
-    if(window.scrollY <= 300){
-      globeTranslate = window.scrollY
-    }else{
-      globeTranslate = 300
-    }
+    window.scrollY <= translateThreshold ? globeTranslate = window.scrollY : globeTranslate = translateThreshold
+
 
     var translateVal =  "translateY(" + globeTranslate + "px)";
 
