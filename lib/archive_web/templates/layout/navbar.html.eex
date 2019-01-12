@@ -23,7 +23,7 @@
         <a href="/follow" class='navbar-item <%="#{active_class(ArchiveWeb.FollowController, @conn)}"%>'>Login</a>
         <div class="buttons navbar-item">
           <a class="button is-light">
-            <strong>Sign up</strong>
+            <strong>Follow</strong>
           </a>
         </div>
       </div>
