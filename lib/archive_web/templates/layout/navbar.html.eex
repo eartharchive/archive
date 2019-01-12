@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="/" style="font-weight:bold;">
-        <img src='<%= Routes.static_path(@conn, "/images/archive-earth-logo-name.png") %>' alt="archive-earth-logo">
+        <img src='<%= Routes.static_path(@conn, "/images/archive-earth-sm.svg") %>' alt="archive-earth-logo">
       </a>
       <span class="navbar-burger burger" data-target="navMenu">
         <span></span>
@@ -23,7 +23,7 @@
         <a href="/follow" class='navbar-item <%="#{active_class(ArchiveWeb.FollowController, @conn)}"%>'>Login</a>
         <div class="buttons navbar-item">
           <a class="button is-light">
-            <strong>Follow</strong>
+            <strong>Sign up</strong>
           </a>
         </div>
       </div>

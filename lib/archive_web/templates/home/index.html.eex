@@ -128,7 +128,7 @@
 							</figure>
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">Other</h1>
+									<h1 class="title is-size-4">Collaborative</h1>
 									<p class="subtitle is-size-5">
 										Essential interface elements that only require a <strong>single CSS class</strong>
 									</p>
@@ -145,17 +145,18 @@
 		<!-- .section -->
 		<section class="section has-background-light">
 			<div class="container">
+        <p class="title">How does it works?</p>
 				<div class="columns">
 					<div class="column">
 						<article class="media notification is-info">
 							<figure class="media-left">
 								<span class="icon is-medium">
-									<i class="fab fa-2x fa-css3-alt"></i>
+									<i class="fab fa-7x fa-css3-alt"></i>
 								</span>
 							</figure>
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">Upload</h1>
+									<h1 class="title is-size-4">Submit</h1>
 									<p class="is-size-5">
 										Bulma is a modern CSS framework from @jgthms, based on Flexbox.
 										Using Bulma, we can describe our website's design using just classes. <span class="emoticon">ᕕ( ᐛ )ᕗ</span>
