@@ -18,48 +18,212 @@
     
   </div>
 
-  <div class="hero-body">
-    <div class="container has-text-centered">
-
-    
-
-      <p>We introduce Archive.Earth: an open platform for collective memory that is distributed, permanent and
-        uncensorable. The main responsibility is supply and maintain ‘bindings’ for data upload/retrieval to and from
-        immutable repositories, focused on certain data types. As this technology, applied properly, also brings
-        potential to engage peer-review and ‘web-scale’ innovation, the second focus is engage scientific, commercial,
-        and government processes to publish or integrate the toolkit into their own evidence-based activity. As a
-        collective, our shared end-goals for this project are to:</p><br>
-
-        <p>We introduce Archive.Earth: an open platform for collective memory that is distributed, permanent and
-        uncensorable. The main responsibility is supply and maintain ‘bindings’ for data upload/retrieval to and from
-        immutable repositories, focused on certain data types. As this technology, applied properly, also brings
-        potential to engage peer-review and ‘web-scale’ innovation, the second focus is engage scientific, commercial,
-        and government processes to publish or integrate the toolkit into their own evidence-based activity. As a
-        collective, our shared end-goals for this project are to:</p><br>
-
-        <p>We introduce Archive.Earth: an open platform for collective memory that is distributed, permanent and
-        uncensorable. The main responsibility is supply and maintain ‘bindings’ for data upload/retrieval to and from
-        immutable repositories, focused on certain data types. As this technology, applied properly, also brings
-        potential to engage peer-review and ‘web-scale’ innovation, the second focus is engage scientific, commercial,
-        and government processes to publish or integrate the toolkit into their own evidence-based activity. As a
-        collective, our shared end-goals for this project are to:</p>
-
-        <p>We introduce Archive.Earth: an open platform for collective memory that is distributed, permanent and
-        uncensorable. The main responsibility is supply and maintain ‘bindings’ for data upload/retrieval to and from
-        immutable repositories, focused on certain data types. As this technology, applied properly, also brings
-        potential to engage peer-review and ‘web-scale’ innovation, the second focus is engage scientific, commercial,
-        and government processes to publish or integrate the toolkit into their own evidence-based activity. As a
-        collective, our shared end-goals for this project are to:</p><br>
-
-      
-
-
-    </div>
-  </div>
-  
-  <div class="hero-body">
-
-
-  </div>
-
 </section>
+
+<section> 
+<div class="container">
+      <p class="title">An open platform for collective environmental memory.</p>
+      <article class="media notification has-background-white">
+        <p>The main responsibility of Archive.Earth is to supply and maintain ‘bindings’ for data upload/retrieval to and from immutable repositories, focused on certain data types. As this technology, applied properly, also brings potential to engage peer-review and ‘web-scale’ innovation, the second focus is engage scientific, commercial, and government processes to publish or integrate the toolkit into their own evidence-based activity.</p>
+      </article>
+    </div>
+</section>
+
+
+		<!-- .section -->
+		<section class="section">
+			<div class="container">
+				<div class="columns is-multiline">
+					<div class="column is-one-third">
+						<article class="media notification has-background-white">
+							<figure class="media-left">
+								<span class="icon">
+									<i class="fas fa-lg fa-columns has-text-warning"></i>
+								</span>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h1 class="title is-size-4">Permanent</h1>
+									<p class="subtitle is-size-5">
+										The power of <strong>Flexbox</strong> in a simple interface
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="column is-one-third">
+						<article class="media notification has-background-white">
+							<figure class="media-left">
+								<span class="icon has-text-info">
+									<i class="fab fa-lg fa-wpforms"></i>
+								</span>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h1 class="title is-size-4">Curated</h1>
+									<p class="subtitle is-size-5">
+										The indispensable <strong>form controls</strong>, designed for maximum clarity
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="column is-one-third">
+						<article class="media notification has-background-white">
+							<figure class="media-left">
+								<span class="icon has-text-danger">
+									<i class="fas fa-lg fa-cubes"></i>
+								</span>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h1 class="title is-size-4">Uncensorable</h1>
+									<p class="subtitle is-size-5">
+										Advanced multi-part components with lots of possibilities
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="column is-one-third">
+						<article class="media notification has-background-white">
+							<figure class="media-left">
+								<span class="icon has-text-grey">
+									<i class="fas fa-lg fa-cogs"></i>
+								</span>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h1 class="title is-size-4">Open</h1>
+									<p class="subtitle is-size-5">
+										An <strong>easy-to-read</strong> naming system designed for humans
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="column is-one-third">
+						<article class="media notification has-background-white">
+							<figure class="media-left">
+								<span class="icon has-text-primary">
+									<i class="fas fa-lg fa-warehouse"></i>
+								</span>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h1 class="title is-size-4">Governance</h1>
+									<p class="subtitle is-size-5">
+										Design the <strong>structure</strong> of your webpage with these CSS classes
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="column is-one-third">
+						<article class="media notification has-background-white">
+							<figure class="media-left">
+								<span class="icon has-text-danger">
+									<i class="fas fa-lg fa-cube"></i>
+								</span>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h1 class="title is-size-4">Other</h1>
+									<p class="subtitle is-size-5">
+										Essential interface elements that only require a <strong>single CSS class</strong>
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.section -->
+
+
+		<!-- .section -->
+		<section class="section has-background-light">
+			<div class="container">
+				<div class="columns">
+					<div class="column">
+						<article class="media notification is-info">
+							<figure class="media-left">
+								<span class="icon is-medium">
+									<i class="fab fa-2x fa-css3-alt"></i>
+								</span>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h1 class="title is-size-4">Upload</h1>
+									<p class="is-size-5">
+										Bulma is a modern CSS framework from @jgthms, based on Flexbox.
+										Using Bulma, we can describe our website's design using just classes. <span class="emoticon">ᕕ( ᐛ )ᕗ</span>
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="column">
+						<article class="media notification is-primary">
+							<figure class="media-left">
+								<span class="icon is-medium">
+									<i class="fas fa-2x fa-align-justify"></i>
+								</span>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h1 class="title is-size-4">Review</h1>
+									<p class="is-size-5">
+										Flexbox is a CSS spec that makes sectioning and aligning more natural.
+										We don't need to know Flexbox but it's how Bulma works behind-the-scenes. <span class="emoticon">⦤(^ー^)⦥</span>
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="column">
+						<article class="media notification is-warning">
+							<figure class="media-left">
+								<span class="icon is-medium">
+									<i class="fas fa-2x fa-shield-alt"></i>
+								</span>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h1 class="title is-size-4">Archive</h1>
+									<p class="is-size-5">
+										Instead of writing our CSS per-element, we can use predefined classes.
+										With enough classes, we can describe our website design using semantics. <span class="emoticon">٩(^ᴗ^)۶</span>
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.section -->
+  <section class="section">
+   <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="column is-6 is-offset-3">
+                        <div class="content">
+                            <div class="field is-grouped">
+                                <p class="control is-expanded">
+                                    <input class="input" type="text" placeholder="Enter your email">
+                                </p>
+                                <p class="control">
+                                    <a class="button is-info">
+                                        Notify Me
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  </section>
+
+            
+

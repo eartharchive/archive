@@ -1,69 +1,84 @@
 
-.nav-bar{
-    width: 242px;
-    overflow: hidden;
-    position: absolute;
-    height: 100%;
-    /*
-    background-color: antiquewhite;
-    opacity: .5;
-    */
-    z-index: 10;
-}
-.nav-bar .logo{
-    height: 200px;
-    width: 100%;
-    float: left;
-    clear: both;
-    display: flex;
-    align-items: center;
-}
+// .nav-bar{
+//     width: 242px;
+//     overflow: hidden;
+//     position: absolute;
+//     height: 100%;
+//     /*
+//     background-color: antiquewhite;
+//     opacity: .5;
+//     */
+//     z-index: 10;
+// }
+// .nav-bar .logo{
+//     height: 200px;
+//     width: 100%;
+//     float: left;
+//     clear: both;
+//     display: flex;
+//     align-items: center;
+// }
 
-.nav-bar .menu{
-    float: left;
-    clear: both;
-    width: 100%;
-    text-align: left;
-}
+// .nav-bar .menu{
+//     float: left;
+//     clear: both;
+//     width: 100%;
+//     text-align: left;
+// }
 
-.nav-bar .menu li a:hover, .nav-bar .menu li a.router-link-active{
-    background-color: #ccc;
-}
+// .nav-bar .menu li a:hover, .nav-bar .menu li a.router-link-active{
+//     background-color: #ccc;
+// }
 
-.nav-bar .menu li a{
-    color: rgba(26, 51, 21, 1.0);
-    font-size: 37px;
-    width: 90%;
-    display: block;
-    margin-right: 10%;
-    padding-left: 10%;
-}
+// .nav-bar .menu li a{
+//     color: rgba(26, 51, 21, 1.0);
+//     font-size: 37px;
+//     width: 90%;
+//     display: block;
+//     margin-right: 10%;
+//     padding-left: 10%;
+// }
 
-.nav-bar .menu li {
-    margin-bottom: 20px;
-}
+// .nav-bar .menu li {
+//     margin-bottom: 20px;
+// }
 
-@media screen and (max-width:1471px) {
-    .nav-bar{
-        width: 150px;
+// @media screen and (max-width:1471px) {
+//     .nav-bar{
+//         width: 150px;
+//     }
+
+//     .nav-bar .menu li a{
+//         font-size: 30px;
+//     }
+
+//     .nav-bar .logo{
+//         height: 150px;
+//     }
+// }
+
+
+// @media screen and (max-width:1279px) {
+//     .nav-bar{
+//         width: 150px;
+//     }
+
+//     .nav-bar .menu li a{
+//         font-size: 24px;
+//     }
+// }
+
+.navbar {
+    .navbar-item.is-button .button {
+        margin-left: 20px;
+        &:hover {
+            background: $accent !important;
+            color: $white !important;
+        }
     }
-
-    .nav-bar .menu li a{
-        font-size: 30px;
-    }
-
-    .nav-bar .logo{
-        height: 150px;
-    }
-}
-
-
-@media screen and (max-width:1279px) {
-    .nav-bar{
-        width: 150px;
-    }
-
-    .nav-bar .menu li a{
-        font-size: 24px;
+    .container {
+        &.is-streched {
+            max-width: 1240px;
+        }
     }
 }
