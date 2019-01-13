@@ -1,1 +1,9 @@
+    <% analytics_api_key = Application.fetch_env!(:archive, :analytics)[:id] %>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<%= analytics_api_key %>"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', '<%= analytics_api_key %>');
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
