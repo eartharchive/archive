@@ -22,7 +22,7 @@
 </section>
 
 <section> 
-<div class="container">
+<div class="container has-text-centered">
       <p class="title">An open platform for collective environmental memory.</p>
       <article class="media notification has-background-white">
         <p>The responsibility of Archive.Earth is to supply and maintain ‘bindings’ for data upload/recall to permanent repository.<br>As this capability, applied properly, enhances governance,scientific reproducibility, and ‘web’ innovation, its second aim is to attract science, commerce, and government to integrate their evidence-based processes.</p>
@@ -36,15 +36,15 @@
 			<div class="container">
 				<div class="columns is-multiline">
 					<div class="column is-one-third">
-						<article class="media notification has-background-white">
-							<figure class="media-left">
+						<article class="section has-background-white">
+							<figure class="has-text-centered">
 								<span class="icon">
 									<img src='<%= Routes.static_path(@conn, "/images/permanent_icon.svg") %>'> 
 								</span>
 							</figure>
-							<div class="media-content">
+							<div class="has-text-centered">
 								<div class="content">
-									<h1 class="title is-size-4">Permanent</h1>
+									<h2 class="title is-size-4">Permanent</h1>
 									<p class="subtitle is-size-5">
 									Uses decentralized data storage technology to prevent information loss.
 									</p>
@@ -53,13 +53,13 @@
 						</article>
 					</div>
 					<div class="column is-one-third">
-						<article class="media notification has-background-white">
-							<figure class="media-left">
-								<span class="icon has-text-info">
+						<article class="section has-background-white">
+							<figure class="has-text-centered">
+								<span class="icon">
 									<img src='<%= Routes.static_path(@conn, "/images/curated_icon.svg") %>'> 
 								</span>
 							</figure>
-							<div class="media-content">
+							<div class="has-text-centered">
 								<div class="content">
 									<h1 class="title is-size-4">Catalogued</h1>
 									<p class="subtitle is-size-5">
@@ -70,13 +70,13 @@
 						</article>
 					</div>
 					<div class="column is-one-third">
-						<article class="media notification has-background-white">
-							<figure class="media-left">
-								<span class="icon has-text-danger">
+						<article class="section has-background-white">
+							<figure class="has-text-centered">
+								<span class="icon">
 									<img src='<%= Routes.static_path(@conn, "/images/unstoppable_icon.svg") %>'> 
 								</span>
 							</figure>
-							<div class="media-content">
+							<div class="has-text-centered">
 								<div class="content">
 									<h1 class="title is-size-4">Uncensorable</h1>
 									<p class="subtitle is-size-5">
@@ -87,13 +87,13 @@
 						</article>
 					</div>
 					<div class="column is-one-third">
-						<article class="media notification has-background-white">
-							<figure class="media-left">
-								<span class="icon has-text-grey">
+						<article class="section has-background-white">
+							<figure class="has-text-centered">
+								<span class="icon">
 									<img src='<%= Routes.static_path(@conn, "/images/open_icon.svg") %>'> 
 								</span>
 							</figure>
-							<div class="media-content">
+							<div class="has-text-centered">
 								<div class="content">
 									<h1 class="title is-size-4">Open</h1>
 									<p class="subtitle is-size-5">
@@ -104,13 +104,13 @@
 						</article>
 					</div>
 					<div class="column is-one-third">
-						<article class="media notification has-background-white">
-							<figure class="media-left">
-								<span class="icon has-text-primary">
+						<article class="section has-background-white">
+							<figure class="has-text-centered">
+								<span class="icon">
 									<img src='<%= Routes.static_path(@conn, "/images/collaborative_icon.svg") %>'> 
 								</span>
 							</figure>
-							<div class="media-content">
+							<div class="has-text-centered">
 								<div class="content">
 									<h1 class="title is-size-4">Collaborative</h1>
 									<p class="subtitle is-size-5">
@@ -121,13 +121,13 @@
 						</article>
 					</div>
 					<div class="column is-one-third">
-						<article class="media notification has-background-white">
-							<figure class="media-left">
-								<span class="icon has-text-danger">
+						<article class="content has-background-white">
+							<figure class="has-text-centered">
+								<span class="icon">
 									<img src='<%= Routes.static_path(@conn, "/images/governance_icon.svg") %>'> 
 								</span>
 							</figure>
-							<div class="media-content">
+							<div class="has-text-centered">
 								<div class="content">
 									<h1 class="title is-size-4">Governance</h1>
 									<p class="subtitle is-size-5">
@@ -149,13 +149,13 @@
         <p class="title">How does it work?</p>
 				<div class="columns">
 					<div class="column">
-						<article class="media notification is-info">
-							<figure class="media-left">
-								<span class="icon is-medium">
+						<article class="section">
+							<figure class="has-text-centered">
+								<span class="icon">
 									<img src='<%= Routes.static_path(@conn, "/images/submit_icon.svg") %>'> 
 								</span>
 							</figure>
-							<div class="media-content">
+							<div class="has-text-centered">
 								<div class="content">
 									<h1 class="title is-size-4">Submit</h1>
 									<p class="is-size-5">
@@ -166,13 +166,13 @@
 						</article>
 					</div>
 					<div class="column">
-						<article class="media notification is-primary">
-							<figure class="media-left">
-								<span class="icon is-medium">
+						<article class="content">
+							<figure class="has-text-centered">
+								<span class="icon">
 									<img src='<%= Routes.static_path(@conn, "/images/archive_icon.svg") %>'> 
 								</span>
 							</figure>
-							<div class="media-content">
+							<div class="has-text-centered">
 								<div class="content">
 									<h1 class="title is-size-4">Review</h1>
 									<p class="is-size-5">
@@ -183,13 +183,13 @@
 						</article>
 					</div>
 					<div class="column">
-						<article class="media notification is-warning">
-							<figure class="media-left">
-								<span class="icon is-medium">
+						<article class="content">
+							<figure class="has-text-centered">
+								<span class="icon">
 										<img src='<%= Routes.static_path(@conn, "/images/citation_icon.svg") %>'> 
 								</span>
 							</figure>
-							<div class="media-content">
+							<div class="has-text-centered">
 								<div class="content">
 									<h1 class="title is-size-4">Cite</h1>
 									<p class="is-size-5">
