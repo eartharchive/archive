@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="321px" height="316px" viewBox="0 0 321 316" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Submit</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Submit" stroke="#000000">
+            <g id="Document" stroke-width="3">
+                <path d="M3.25504625,47.3545443 C2.11688058,48.838692 1.5,50.6568008 1.5,52.5271258 L1.5,306 C1.5,310.69442 5.30557963,314.5 10,314.5 L211,314.5 C215.69442,314.5 219.5,310.69442 219.5,306 L219.5,10 C219.5,5.30557963 215.69442,1.5 211,1.5 L42.6132736,1.5 C39.9698734,1.5 37.476932,2.72981712 35.8683199,4.82741855 L3.25504625,47.3545443 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <g id="Stacked-Group" transform="translate(37.000000, 46.000000)" stroke-linecap="round">
+                    <path d="M0.424418605,41.5 L145.575581,41.5" id="Line"></path>
+                    <path d="M0.424418605,0.5 L145.575581,0.5" id="Line"></path>
+                    <path d="M0.424418605,82.5 L145.575581,82.5" id="Line"></path>
+                    <path d="M0.424418605,120.5 L145.575581,120.5" id="Line"></path>
+                    <path d="M0.424418605,158.5 L145.575581,158.5" id="Line"></path>
+                    <path d="M0.424418605,196.5 L145.575581,196.5" id="Line"></path>
+                    <path d="M0.424418605,234.5 L145.575581,234.5" id="Line"></path>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(198.000000, 104.000000)">
+                <circle id="Oval" stroke-width="5" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                <polyline id="Path" stroke-width="7" stroke-linecap="round" transform="translate(85.000000, 59.000000) rotate(90.000000) translate(-85.000000, -59.000000) " points="51 75 85 43 85 43 119 75"></polyline>
+                <path d="M17.5661765,59.5 L93.4338235,59.5" id="Line-2" stroke-width="7" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

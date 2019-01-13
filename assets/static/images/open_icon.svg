@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="545px" height="467px" viewBox="0 0 545 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Archived.Earth-1.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-839.000000, -815.000000)" stroke="#000000">
+            <g id="Group-2" transform="translate(842.000000, 815.000000)">
+                <path d="M14.5,35.8154684 L14.5,434.033377 C66.510451,415.622361 108.314979,406.398942 140,406.398942 C171.685021,406.398942 213.489549,415.622361 265.499981,434.033371 L265.5,35.4915079 C225.9924,14.2116804 186.504747,3.59087009 147,3.59087009 C132.850478,3.59087009 118.121196,4.9532065 102.811308,7.68048538 C84.4474335,10.9517964 54.9711707,20.3342575 14.5000102,35.8154645 Z" id="Rectangle" stroke-width="7" fill="#FFFFFF"></path>
+                <polyline id="Line-2" stroke-width="6" stroke-linecap="square" points="0.5 70.5 0.5 444.620567 539 445 539 77.0638541"></polyline>
+                <path d="M272.5,35.7245983 L272.5,434.198329 C331.601028,416.489663 375.719783,407.62363 405,407.62363 C434.167215,407.62363 473.63363,416.411866 523.5,433.953027 L523.5,35.4006378 C483.9924,14.1208103 444.504747,3.5 405,3.5 C390.850478,3.5 376.121196,4.8623364 360.811308,7.58961529 C342.447434,10.8609263 312.971171,20.2433874 272.50001,35.7245944 Z" id="Rectangle" stroke-width="7" fill="#FFFFFF"></path>
+                <path d="M249,445.5 C249,456.821837 258.178163,466 269.5,466 C280.821837,466 290,456.821837 290,445.5" id="Path" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>
