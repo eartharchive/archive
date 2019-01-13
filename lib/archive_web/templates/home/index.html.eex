@@ -13,16 +13,12 @@
       <img class="over-image folder-front" src='<%= Routes.static_path(@conn, "/images/rectangle-front.png") %>' alt="over-image">
       </span>
     </div>
-
-
-
-    
   </div>
 
 </section>
 
 <section> 
-<div class="container has-text-centered">
+<div class="section container has-text-centered">
       <p class="title">An open platform for collective environmental memory.</p>
       <article class="media notification has-background-white">
         <p class="has-text-centered">Current systems to store environmental knowledge on computers are fragile and vulnerable to interference. That is why Archive.Earth was created, as a platform to collect, store, protect and share environmental research responsibly. We want to ensure scientists have tools to collaborate and communicate their findings with each other and the public.<br>
@@ -225,7 +221,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">EcoNet</h1>
 									<p class="is-size-5">
-										Anybody can submit data to the archive with these tools, provided a storage fee is covered. If needed, the fee can be subsidised by a donor with interest to support such content.
+										As a full-stack, open-source technology development company focused on the environmental sector, EcoNet provides technical support in the design and implementation of systems and processes.
 									</p>
 								</div>
 							</div>
