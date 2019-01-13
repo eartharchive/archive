@@ -6,4 +6,5 @@
   gtag('js', new Date());
 
   gtag('config', '<%= analytics_api_key %>');
+  </script>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
