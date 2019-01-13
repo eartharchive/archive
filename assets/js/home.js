@@ -6,7 +6,7 @@ if (landing) {
   const globe = document.getElementById('globe');
   const folder = document.getElementById('folder')
   window.addEventListener( 'scroll', function() {
-    console.log(window.scrollY);
+    //console.log(window.scrollY);
     // adjust size of element top when scroll more than ...
     //globe.style.width = 
     //globe.style.transform = "translate(0px, " + window.scrollY + "px);";
@@ -34,7 +34,7 @@ if (landing) {
     
     var globeSize = (translateScaleFactor-window.scrollY) / translateScaleFactor
     var globeTranslate = 0
-    console.log(globeSize);
+    //console.log(globeSize);
     if(globeSize > 1){
       globeSize = 1
     }
