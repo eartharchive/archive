@@ -4,6 +4,8 @@ defmodule ArchiveWeb.UserController do
   alias Archive.Accounts
   alias Archive.Accounts.User
 
+  plug :authenticate_user when action in [:index, :show, :edit]
+
   def index(conn, _params) do
     users = Accounts.list_users()
     render(conn, "index.html", users: users)
@@ -19,6 +21,7 @@ defmodule ArchiveWeb.UserController do
       {:ok, credential} ->
         conn
         |> put_flash(:info, "User created successfully.")
+        |> Accounts.sign_in(credential.user)
         |> redirect(to: Routes.user_path(conn, :show, credential.user))
 
       {:error, %Ecto.Changeset{} = changeset} ->

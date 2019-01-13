@@ -39,6 +39,8 @@ defmodule Archive.Accounts do
   """
   def get_user!(id), do: Repo.get!(User, id)
 
+  def get_user(id), do: Repo.get(User, id)
+
   @doc """
   Creates a user.
 
@@ -236,10 +238,10 @@ defmodule Archive.Accounts do
     auth =
       Credential
       |> Repo.get_by(email: email)
-      |> Repo.preload(:partner)
+      |> Repo.preload(:user)
 
     cond do
-      auth && auth.partner && auth.password_hash && checkpw(password, auth.password_hash) ->
+      auth && auth.user && auth.password_hash && checkpw(password, auth.password_hash) ->
         {:ok, auth}
 
       auth ->
@@ -308,10 +310,13 @@ defmodule Archive.Accounts do
   end
 
   def sign_in(conn, user) do
-    #Guardian.Plug.sign_in(conn, partner)
+    IO.puts "Accounts.sign_in"
+    IO.inspect user
+    ArchiveWeb.AuthenticationController.sign_in(conn, user)
   end
 
   def sign_out(conn) do
-    #Guardian.Plug.sign_out(conn)
+    ArchiveWeb.AuthController.delete(conn)
   end
+
 end

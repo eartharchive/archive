@@ -24,7 +24,8 @@
 <div class="container">
       <p class="title">An open platform for collective environmental memory.</p>
       <article class="media notification has-background-white">
-        <p>The main responsibility of Archive.Earth is to supply and maintain ‘bindings’ for data upload/retrieval to and from immutable repositories, focused on certain data types. As this technology, applied properly, also brings potential to engage peer-review and ‘web-scale’ innovation, the second focus is engage scientific, commercial, and government processes to publish or integrate the toolkit into their own evidence-based activity.</p>
+        <p>The responsibility of Archive.Earth is to supply and maintain ‘bindings’ for data upload/recall to permanent repository.</p>
+        <p>As this capability, applied properly, enhances governance,scientific reproducibility, and ‘web’ innovation, its second aim is to attract science, commerce, and government to integrate their evidence-based processes.</p>
       </article>
     </div>
 </section>
@@ -38,14 +39,14 @@
 						<article class="media notification has-background-white">
 							<figure class="media-left">
 								<span class="icon">
-									<i class="fas fa-lg fa-columns has-text-warning"></i>
+									<img src='<%= Routes.static_path(@conn, "/images/permanent_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="media-content">
 								<div class="content">
 									<h1 class="title is-size-4">Permanent</h1>
 									<p class="subtitle is-size-5">
-										The power of <strong>Flexbox</strong> in a simple interface
+									Uses decentralized data storage technology to prevent information loss.
 									</p>
 								</div>
 							</div>
@@ -55,14 +56,14 @@
 						<article class="media notification has-background-white">
 							<figure class="media-left">
 								<span class="icon has-text-info">
-									<i class="fab fa-lg fa-wpforms"></i>
+									<img src='<%= Routes.static_path(@conn, "/images/curated_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">Curated</h1>
+									<h1 class="title is-size-4">Catalogued</h1>
 									<p class="subtitle is-size-5">
-										The indispensable <strong>form controls</strong>, designed for maximum clarity
+										All data gets a unique, unchanging Archived.Earth address to ensure easy content recall.
 									</p>
 								</div>
 							</div>
@@ -72,14 +73,14 @@
 						<article class="media notification has-background-white">
 							<figure class="media-left">
 								<span class="icon has-text-danger">
-									<i class="fas fa-lg fa-cubes"></i>
+									<img src='<%= Routes.static_path(@conn, "/images/unstoppable_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="media-content">
 								<div class="content">
 									<h1 class="title is-size-4">Uncensorable</h1>
 									<p class="subtitle is-size-5">
-										Advanced multi-part components with lots of possibilities
+										The system prevents any data from being changed or censored.
 									</p>
 								</div>
 							</div>
@@ -96,7 +97,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Open</h1>
 									<p class="subtitle is-size-5">
-										An <strong>easy-to-read</strong> naming system designed for humans
+										Everyone can access/upload data.
 									</p>
 								</div>
 							</div>
@@ -111,9 +112,9 @@
 							</figure>
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">Governance</h1>
+									<h1 class="title is-size-4">Collaborative</h1>
 									<p class="subtitle is-size-5">
-										Design the <strong>structure</strong> of your webpage with these CSS classes
+										Features to crowd-source, -filter, and -apply archives.
 									</p>
 								</div>
 							</div>
@@ -128,9 +129,9 @@
 							</figure>
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">Collaborative</h1>
+									<h1 class="title is-size-4">Governance</h1>
 									<p class="subtitle is-size-5">
-										Essential interface elements that only require a <strong>single CSS class</strong>
+										A shared knowledge base to serve all stakeholders with peer-review and voting.
 									</p>
 								</div>
 							</div>
@@ -145,7 +146,7 @@
 		<!-- .section -->
 		<section class="section has-background-light">
 			<div class="container">
-        <p class="title">How does it works?</p>
+        <p class="title">How does it work?</p>
 				<div class="columns">
 					<div class="column">
 						<article class="media notification is-info">
@@ -158,8 +159,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Submit</h1>
 									<p class="is-size-5">
-										Bulma is a modern CSS framework from @jgthms, based on Flexbox.
-										Using Bulma, we can describe our website's design using just classes. <span class="emoticon">ᕕ( ᐛ )ᕗ</span>
+										Anybody can submit data to the archive with these tools, provided a storage fee is covered. If needed, the fee can be subsidised by a donor with interest to support such content.
 									</p>
 								</div>
 							</div>
@@ -176,8 +176,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Review</h1>
 									<p class="is-size-5">
-										Flexbox is a CSS spec that makes sectioning and aligning more natural.
-										We don't need to know Flexbox but it's how Bulma works behind-the-scenes. <span class="emoticon">⦤(^ー^)⦥</span>
+										If no curation is requested, archiving occurs quickly. Quality assurance or subsidy requests are reviewed in appropriate system.
 									</p>
 								</div>
 							</div>
@@ -192,10 +191,9 @@
 							</figure>
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">Archive</h1>
+									<h1 class="title is-size-4">Cite</h1>
 									<p class="is-size-5">
-										Instead of writing our CSS per-element, we can use predefined classes.
-										With enough classes, we can describe our website design using semantics. <span class="emoticon">٩(^ᴗ^)۶</span>
+										Once stored, data will be viewable “as-published” for posterity, or in the case of open-ended collections automatically superseded. Whenever possible, content is natively-viewable in a browser, as well as machine-readable (API).
 									</p>
 								</div>
 							</div>

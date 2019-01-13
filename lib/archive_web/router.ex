@@ -7,6 +7,7 @@ defmodule ArchiveWeb.Router do
     plug :fetch_flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug ArchiveWeb.AuthenticationController
   end
 
   pipeline :api do
@@ -16,11 +17,12 @@ defmodule ArchiveWeb.Router do
   scope "/", ArchiveWeb do
     pipe_through :browser
 
-    get "/", HomeController, :index
+    resources "/", HomeController, only: [:index]
     get "/about", AboutController, :index
     get "/news", NewsController, :index
     get "/follow", FollowController, :index
-    resources "/users", UserController, only: [:new, :create]
+    resources "/users", UserController
+    resources "/requests", RequestController
   end
 
   scope "/auth", ArchiveWeb do
@@ -29,6 +31,7 @@ defmodule ArchiveWeb.Router do
     get "/:provider", AuthController, :request
     get "/:provider/callback", AuthController, :callback
     post "/identity/callback", AuthController, :identity_callback
+    delete "/logout", AuthController, :delete
   end
 
   # Other scopes may use custom stacks.

@@ -11,7 +11,16 @@ defmodule ArchiveWeb.AuthController do
     render(conn, "request.html", callback_url: Helpers.callback_url(conn), layout: false)
   end
 
+  def delete(conn) do
+    IO.puts "delete auth"
+    conn
+    |> put_flash(:info, "You have been logged out!")
+    |> configure_session(drop: true)
+    |> redirect(to: "/")
+  end
+
   def delete(conn, _params) do
+    IO.puts "delete with params"
     conn
     |> put_flash(:info, "You have been logged out!")
     |> configure_session(drop: true)
@@ -29,8 +38,9 @@ defmodule ArchiveWeb.AuthController do
       {:ok, authentication} ->
         conn
         |> put_flash(:info, "Successfully authentificated. #{authentication.email} #{authentication.provider}")
-        |> Accounts.sign_in(authentication.partner)
-        |> redirect(to: "/home")
+        |> Accounts.sign_in(authentication)
+        # |> redirect(to: Routes.dashboard_path(conn, :index))
+        |> redirect(to: "/")
       {:error, _reason} ->
         conn
         |> put_flash(:error, "Failed to authenticate")
@@ -44,8 +54,9 @@ defmodule ArchiveWeb.AuthController do
       {:ok, auth} ->
         conn
         |> put_flash(:info, "Successfully authentificated. #{auth.email}")
-        |> Accounts.sign_in(auth)
-        |> redirect(to: "/home")
+        |> Accounts.sign_in(auth.user)
+        |> redirect(to: "/")
+        # |> redirect(to: Routes.home_path(conn, :index))
       {:error, _reason} ->
         conn
         |> put_flash(:error, "Failed to authenticate")

@@ -31,7 +31,11 @@ window.cookieconsent.initialise({
   <section class="hero is-fullheight">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
-     <%= render "navbar.html", assigns %>      
+     <%= render "navbar.html", assigns %>
+      <div class="container">
+        <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+        <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p> 
+      </div>     
   </div>
 
   <!-- Hero content: will be in the middle -->

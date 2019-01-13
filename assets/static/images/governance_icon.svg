@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="313px" height="199px" viewBox="0 0 313 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(0.000000, 2.000000)" fill="#FFFFFF" stroke="#000000">
+            <path d="M205,118 C205,83.7583455 185.524387,56 161.5,56 C137.475613,56 118,83.7583455 118,118 L205,118 Z" id="Path" stroke-width="4" stroke-linecap="round"></path>
+            <path d="M290,118 C290,83.7583455 270.524387,56 246.5,56 C222.475613,56 203,83.7583455 203,118 L290,118 Z" id="Path" stroke-width="4" stroke-linecap="round"></path>
+            <ellipse id="Oval" stroke-width="4" cx="159" cy="26" rx="28" ry="26"></ellipse>
+            <path d="M290,118 C290,83.7583455 270.524387,56 246.5,56 C222.475613,56 203,83.7583455 203,118 L290,118 Z" id="Path" stroke-width="4" stroke-linecap="round"></path>
+            <path d="M290,118 C290,83.7583455 270.524387,56 246.5,56 C222.475613,56 203,83.7583455 203,118 L290,118 Z" id="Path" stroke-width="4" stroke-linecap="round"></path>
+            <ellipse id="Oval" stroke-width="4" cx="246" cy="26" rx="28" ry="26"></ellipse>
+            <path d="M115,116 C115,81.7583455 95.5243866,56 71.5,56 C47.4756134,56 28,83.7583455 28,118 L115,116 Z" id="Path" stroke-width="4" stroke-linecap="round"></path>
+            <ellipse id="Oval" stroke-width="4" cx="69" cy="26" rx="28" ry="26"></ellipse>
+            <rect id="Rectangle" stroke-width="4" x="14" y="87" width="287" height="108"></rect>
+            <rect id="Rectangle" stroke-width="3" x="1.5" y="84.5" width="310" height="14"></rect>
+        </g>
+    </g>
+</svg>

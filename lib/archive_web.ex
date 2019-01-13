@@ -23,6 +23,7 @@ defmodule ArchiveWeb do
 
       import Plug.Conn
       import ArchiveWeb.Gettext
+      import ArchiveWeb.AuthenticationController, only: [authenticate_user: 2]
       alias ArchiveWeb.Router.Helpers, as: Routes
     end
   end
@@ -50,6 +51,7 @@ defmodule ArchiveWeb do
       use Phoenix.Router
       import Plug.Conn
       import Phoenix.Controller
+      import ArchiveWeb.AuthenticationController, only: [authenticate_user: 2]
     end
   end
 

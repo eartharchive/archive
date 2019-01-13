@@ -1,0 +1,30 @@
+<h1>Listing Requests</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Content</th>
+      <th>Status</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for request <- @requests do %>
+    <tr>
+      <td><%= request.title %></td>
+      <td><%= request.content %></td>
+      <td><%= request.status %></td>
+
+      <td>
+        <%= link "Show", to: Routes.request_path(@conn, :show, request) %>
+        <%= link "Edit", to: Routes.request_path(@conn, :edit, request) %>
+        <%= link "Delete", to: Routes.request_path(@conn, :delete, request), method: :delete, data: [confirm: "Are you sure?"] %>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Request", to: Routes.request_path(@conn, :new) %></span>
