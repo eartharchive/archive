@@ -25,7 +25,10 @@
 <div class="container has-text-centered">
       <p class="title">An open platform for collective environmental memory.</p>
       <article class="media notification has-background-white">
-        <p>The responsibility of Archive.Earth is to supply and maintain ‘bindings’ for data upload/recall to permanent repository.<br>As this capability, applied properly, enhances governance,scientific reproducibility, and ‘web’ innovation, its second aim is to attract science, commerce, and government to integrate their evidence-based processes.</p>
+        <p class="has-text-centered">Current systems to store environmental knowledge on computers are fragile and vulnerable to interference. That is why Archive.Earth was created, as a platform to collect, store, protect and share environmental research responsibly. We want to ensure scientists have tools to collaborate and communicate their findings with each other and the public.</p>
+        <p class="has-text-centered"> 
+        <strong>How will we do this?</strong> Archive.Earth works with existing communities and groups to curate high quality, trusted information useful for democratic governance, scientific reproducibility, and empowering  ‘planetary-scale’ innovation. 
+        </p>
       </article>
     </div>
 </section>
@@ -63,7 +66,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Catalogued</h1>
 									<p class="subtitle is-size-5">
-										All data gets a unique, unchanging Archived.Earth address to ensure easy content recall.
+										All data gets a unique, unchanging Archived.Earth address to ensure easy content recall and organization.
 									</p>
 								</div>
 							</div>
@@ -97,7 +100,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Open</h1>
 									<p class="subtitle is-size-5">
-										Everyone can access/upload data.
+										Everyone can upload data onto our platform. Any data can be set for public view.
 									</p>
 								</div>
 							</div>
@@ -114,7 +117,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Collaborative</h1>
 									<p class="subtitle is-size-5">
-										Features to crowd-source, -filter, and -apply archives.
+										Features to crowdsource, crowdfilter, and crowd-apply archives.
 									</p>
 								</div>
 							</div>
@@ -131,7 +134,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Governance</h1>
 									<p class="subtitle is-size-5">
-										A shared knowledge base to serve all stakeholders with peer-review and voting.
+										All submitted data is subject to peer-review and voting before archival.
 									</p>
 								</div>
 							</div>
@@ -159,7 +162,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Submit</h1>
 									<p class="is-size-5">
-										Anybody can submit data to the archive with these tools, provided a storage fee is covered. If needed, the fee can be subsidised by a donor with interest to support such content.
+                  ANYONE can submit information (maps, documents, images, data, etc) to be stored permanently.<br>A small one time fee will apply, but can be covered by a donor or internal funding programs.
 									</p>
 								</div>
 							</div>
@@ -176,7 +179,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Review</h1>
 									<p class="is-size-5">
-										If no curation is requested, archiving occurs quickly. Quality assurance or subsidy requests are reviewed in appropriate system.
+										If no curation is sought, archiving occurs as soon as possible, operating 24h/day.<br> Quality assurance or subsidy requests are reviewed by appointed content teams.
 									</p>
 								</div>
 							</div>
@@ -193,7 +196,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Cite</h1>
 									<p class="is-size-5">
-										Once stored, data will be viewable “as-published” for posterity, or in the case of open-ended collections automatically superseded. Whenever possible, content is natively-viewable in a browser, as well as machine-readable (API).
+										Once stored, data will be viewable “as-published” forever. In the case of open-ended collections, data will be automatically updated.<br>Whenever possible content is viewable in a browser, as well as machine-exportable (API).
 									</p>
 								</div>
 							</div>
@@ -209,6 +212,8 @@
 		<section class="section">
 			<div class="container">
         <p class="title">Collaborators</p>
+        <p>The Archive.Earth project is being assisted in terms of:</p>
+        
 				<div class="columns">
 					<div class="column">
 						<article class="section">
