@@ -27,7 +27,7 @@
           <div class="buttons navbar-item">
            <%= button "Logout", to: Routes.auth_path(@conn, :delete), method: :delete, class: "button is-light" %>
            </div>
-        <%= else %>
+        <% else %>
         <a href="/home" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Home</a>
         <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Blog</a>
         <a href="/news" class='navbar-item <%="#{active_class(ArchiveWeb.NewsController, @conn)}"%>'>News</a>

@@ -142,9 +142,9 @@
 		</section>
 		<!-- /.section -->
 
-
+    <div class="is-divider"></div>
 		<!-- .section -->
-		<section class="section has-background-light">
+		<section class="section">
 			<div class="container">
         <p class="title">How does it work?</p>
 				<div class="columns">
