@@ -25,8 +25,7 @@
 <div class="container has-text-centered">
       <p class="title">An open platform for collective environmental memory.</p>
       <article class="media notification has-background-white">
-        <p class="has-text-centered">Current systems to store environmental knowledge on computers are fragile and vulnerable to interference. That is why Archive.Earth was created, as a platform to collect, store, protect and share environmental research responsibly. We want to ensure scientists have tools to collaborate and communicate their findings with each other and the public.</p>
-        <p class="has-text-centered"> 
+        <p class="has-text-centered">Current systems to store environmental knowledge on computers are fragile and vulnerable to interference. That is why Archive.Earth was created, as a platform to collect, store, protect and share environmental research responsibly. We want to ensure scientists have tools to collaborate and communicate their findings with each other and the public.<br>
         <strong>How will we do this?</strong> Archive.Earth works with existing communities and groups to curate high quality, trusted information useful for democratic governance, scientific reproducibility, and empowering  ‘planetary-scale’ innovation. 
         </p>
       </article>
@@ -213,7 +212,7 @@
 			<div class="container">
         <p class="title">Collaborators</p>
         <p>The Archive.Earth project is being assisted in terms of:</p>
-        
+
 				<div class="columns">
 					<div class="column">
 						<article class="section">
