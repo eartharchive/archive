@@ -38,8 +38,8 @@
 					<div class="column is-one-third">
 						<article class="section has-background-white">
 							<figure class="has-text-centered">
-								<span class="icon">
-									<img src='<%= Routes.static_path(@conn, "/images/permanent_icon.svg") %>'> 
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_secure_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
@@ -55,8 +55,8 @@
 					<div class="column is-one-third">
 						<article class="section has-background-white">
 							<figure class="has-text-centered">
-								<span class="icon">
-									<img src='<%= Routes.static_path(@conn, "/images/curated_icon.svg") %>'> 
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_catalogue_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
@@ -72,8 +72,8 @@
 					<div class="column is-one-third">
 						<article class="section has-background-white">
 							<figure class="has-text-centered">
-								<span class="icon">
-									<img src='<%= Routes.static_path(@conn, "/images/unstoppable_icon.svg") %>'> 
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_uncensorable_icon.svg") %>' height="30"> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
@@ -89,8 +89,8 @@
 					<div class="column is-one-third">
 						<article class="section has-background-white">
 							<figure class="has-text-centered">
-								<span class="icon">
-									<img src='<%= Routes.static_path(@conn, "/images/open_icon.svg") %>'> 
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_open_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
@@ -106,8 +106,8 @@
 					<div class="column is-one-third">
 						<article class="section has-background-white">
 							<figure class="has-text-centered">
-								<span class="icon">
-									<img src='<%= Routes.static_path(@conn, "/images/collaborative_icon.svg") %>'> 
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_collaborative_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
@@ -120,11 +120,11 @@
 							</div>
 						</article>
 					</div>
-					<div class="column is-one-third">
-						<article class="content has-background-white">
+          <div class="column is-one-third">
+						<article class="section has-background-white">
 							<figure class="has-text-centered">
-								<span class="icon">
-									<img src='<%= Routes.static_path(@conn, "/images/governance_icon.svg") %>'> 
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_governed_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
@@ -151,8 +151,8 @@
 					<div class="column">
 						<article class="section">
 							<figure class="has-text-centered">
-								<span class="icon">
-									<img src='<%= Routes.static_path(@conn, "/images/submit_icon.svg") %>'> 
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_submit_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
@@ -165,11 +165,11 @@
 							</div>
 						</article>
 					</div>
-					<div class="column">
-						<article class="content">
+          	<div class="column">
+						<article class="section">
 							<figure class="has-text-centered">
-								<span class="icon">
-									<img src='<%= Routes.static_path(@conn, "/images/archive_icon.svg") %>'> 
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_archive_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
@@ -182,11 +182,11 @@
 							</div>
 						</article>
 					</div>
-					<div class="column">
-						<article class="content">
+          	<div class="column">
+						<article class="section">
 							<figure class="has-text-centered">
-								<span class="icon">
-										<img src='<%= Routes.static_path(@conn, "/images/citation_icon.svg") %>'> 
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_cited_icon.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
@@ -203,22 +203,59 @@
 			</div>
 		</section>
 		<!-- /.section -->
+
+    <div class="is-divider"></div>
+		<!-- .section -->
+		<section class="section">
+			<div class="container">
+        <p class="title">Collaborators</p>
+				<div class="columns">
+					<div class="column">
+						<article class="section">
+							<figure class="has-text-centered">
+								<span class="icon is-large">
+									<img src='<%= Routes.static_path(@conn, "/images/econet_logo.svg") %>'> 
+								</span>
+							</figure>
+							<div class="has-text-centered">
+								<div class="content">
+									<h1 class="title is-size-4">EcoNet</h1>
+									<p class="is-size-5">
+										Anybody can submit data to the archive with these tools, provided a storage fee is covered. If needed, the fee can be subsidised by a donor with interest to support such content.
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+          	<div class="column">
+						<article class="section">
+							<figure class="has-text-centered">
+								<span class="icon is-large">
+									<img height="50px"src='<%= Routes.static_path(@conn, "/images/ogh_logo.jpg") %>'> 
+								</span>
+							</figure>
+							<div class="has-text-centered">
+								<div class="content">
+									<h1 class="title is-size-4">OpenGeoHub</h1>
+									<p class="is-size-5">
+										If no curation is requested, archiving occurs quickly. Quality assurance or subsidy requests are reviewed in appropriate system.
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.section -->
+
+  <div class="is-divider"></div>
   <section class="section">
    <div class="hero-body">
                 <div class="container has-text-centered">
-                    <div class="column is-6 is-offset-3">
-                        <div class="content">
-                            <div class="field is-grouped">
-                                <p class="control is-expanded">
-                                    <input class="input" type="text" placeholder="Enter your email">
-                                </p>
-                                <p class="control">
-                                    <a class="button is-info">
-                                        Notify Me
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
+                    <div class="title">
+                    <p>We want to hear from you!</p>
+                    <p>hello@archive.earth<p>
                     </div>
                 </div>
             </div>

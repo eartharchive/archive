@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 190 373" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;">
+    <g id="Group-3" transform="matrix(-3.82857e-16,1,-1,-3.82857e-16,171.638,17.8811)">
+        <g id="Path" transform="matrix(0.999848,-0.0174524,0.0174524,0.999848,-1.26691,2.94647)">
+            <path d="M142.132,98.608C111.316,123.736 93.564,140.874 69.003,140.874C28.19,140.874 1.522,110.597 2.206,71.372C2.891,32.148 31.221,3.194 71.394,3.895C131.345,4.942 159.154,62.817 168.181,74.059C177.209,85.301 216.036,143.441 260.974,144.225C294.49,144.81 333.323,124.89 334.156,77.167C334.989,29.443 303.141,7.94 263.365,7.246C237.876,6.801 220.994,17.755 191.366,50.977" style="fill:none;stroke:black;stroke-width:9px;"/>
+        </g>
+        <g id="Line-5" transform="matrix(0.99863,-0.052336,0.052336,0.99863,-6.31115,7.50244)">
+            <path d="M148.098,96.758L132.098,151.758" style="fill:none;stroke:black;stroke-width:9px;"/>
+        </g>
+        <g id="Line-51" serif:id="Line-5" transform="matrix(0.99863,-0.052336,0.052336,0.99863,-5.05294,6.4035)">
+            <path d="M146.731,96.842L92.244,103.184" style="fill:none;stroke:black;stroke-width:9px;"/>
+        </g>
+    </g>
+</svg>

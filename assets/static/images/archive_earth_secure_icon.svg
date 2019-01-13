@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 220 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="Group-7" transform="matrix(1,0,0,1,6.24621,20.3002)">
+        <path id="Path" d="M37.5,128.611L170.305,126.896L170.305,65.552C170.305,32.775 147.027,6.5 118.73,6.5L89.075,6.5C60.778,6.5 37.5,32.775 37.5,65.552L37.5,128.611Z" style="fill:none;stroke:rgb(5,5,5);stroke-width:13px;"/>
+        <path id="Rectangle" d="M204.97,143C204.97,136.377 199.593,131 192.97,131L14,131C7.377,131 2,136.377 2,143L2,273.498C2,280.121 7.377,285.498 14,285.498L192.97,285.498C199.593,285.498 204.97,280.121 204.97,273.498L204.97,143Z" style="fill:white;stroke:black;stroke-width:4px;"/>
+        <path id="Line-6" d="M65,210.199L91.611,239.841L143.925,170" style="fill:none;stroke:black;stroke-width:9px;stroke-linecap:round;"/>
+    </g>
+</svg>

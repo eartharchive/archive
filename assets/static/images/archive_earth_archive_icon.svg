@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 399 385" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="Group-10">
+        <path id="Rectangle" d="M117.016,230.356L117,230.356C115.067,230.356 113.5,231.923 113.5,233.856L113.5,379.497C113.5,381.43 115.067,382.997 117,382.997L339.345,382.997C341.278,382.997 342.845,381.43 342.845,379.497L342.845,209C342.845,207.067 341.278,205.5 339.345,205.5L279.652,205.5C278.761,205.5 277.903,205.84 277.254,206.451C267.667,215.472 260.182,221.34 254.73,224.078C247.107,227.907 223.285,229.241 117.016,230.356ZM116.992,227.356C116.995,227.356 116.997,227.356 117,227.356L116.984,227.356C116.987,227.356 116.99,227.356 116.992,227.356L116.992,227.356Z" style="fill:white;stroke:black;stroke-width:3px;"/>
+        <path id="Rectangle1" serif:id="Rectangle" d="M166.561,284.5C166.003,284.5 165.491,284.81 165.232,285.305L115.625,380.154C115.513,380.368 115.455,380.607 115.455,380.849C115.455,381.677 116.126,382.349 116.955,382.349L342.584,382.349C343.127,382.349 343.628,382.055 343.893,381.58L396.851,286.731C396.976,286.508 397.042,286.256 397.042,286C397.042,285.172 396.37,284.5 395.542,284.5L166.561,284.5Z" style="fill:white;stroke:black;stroke-width:3px;"/>
+        <path id="Rectangle2" serif:id="Rectangle" d="M2.555,31.944C1.874,32.755 1.5,33.78 1.5,34.839L1.5,204C1.5,206.485 3.515,208.5 6,208.5L155,208.5C157.485,208.5 159.5,206.485 159.5,204L159.5,6C159.5,3.515 157.485,1.5 155,1.5L30.245,1.5C28.916,1.5 27.655,2.087 26.8,3.104L2.555,31.944Z" style="fill:white;stroke:black;stroke-width:3px;"/>
+        <path id="Line" d="M27.598,63.92L133.402,63.92" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+        <path id="Line1" serif:id="Line" d="M27.598,40.347L133.402,40.347" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+        <path id="Line2" serif:id="Line" d="M27.598,87.493L133.402,87.493" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+        <path id="Line3" serif:id="Line" d="M27.598,111.067L133.402,111.067" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+        <path id="Line4" serif:id="Line" d="M27.598,134.64L133.402,134.64" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+        <path id="Line5" serif:id="Line" d="M27.598,157.307L133.402,157.307" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+        <path id="Line6" serif:id="Line" d="M27.598,180.88L133.402,180.88" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+        <g id="Group" transform="matrix(0.838671,-0.544639,0.544639,0.838671,105,169.91)">
+            <g id="Oval" transform="matrix(0.0174524,0.999848,-0.999848,0.0174524,108.532,-1.44278)">
+                <circle cx="55" cy="54.5" r="53.5" style="fill:white;stroke:black;stroke-width:5px;"/>
+            </g>
+            <g id="Path" transform="matrix(-0.999848,0.0174524,-0.0174524,-0.999848,111.957,152.197)">
+                <path d="M25.814,90.587L55.314,62.587L84.814,90.587" style="fill:none;stroke:black;stroke-width:7px;stroke-linecap:round;"/>
+            </g>
+            <g id="Line-2" transform="matrix(0.0174524,0.999848,-0.999848,0.0174524,105.284,-4.96414)">
+                <path d="M21.668,51.587L88.668,51.587" style="fill:none;stroke:black;stroke-width:7px;stroke-linecap:round;"/>
+            </g>
+        </g>
+    </g>
+</svg>

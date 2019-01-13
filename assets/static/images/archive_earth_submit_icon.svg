@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 321 316" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="Submit">
+        <g id="Document">
+            <path id="Rectangle" d="M3.255,47.355C2.117,48.839 1.5,50.657 1.5,52.527L1.5,306C1.5,310.694 5.306,314.5 10,314.5L211,314.5C215.694,314.5 219.5,310.694 219.5,306L219.5,10C219.5,5.306 215.694,1.5 211,1.5L42.613,1.5C39.97,1.5 37.477,2.73 35.868,4.827L3.255,47.355Z" style="fill:white;stroke:black;stroke-width:3px;"/>
+            <g id="Stacked-Group" transform="matrix(1,0,0,1,37,46)">
+                <path id="Line" d="M0.424,41.5L145.576,41.5" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+                <path id="Line1" serif:id="Line" d="M0.424,0.5L145.576,0.5" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+                <path id="Line2" serif:id="Line" d="M0.424,82.5L145.576,82.5" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+                <path id="Line3" serif:id="Line" d="M0.424,120.5L145.576,120.5" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+                <path id="Line4" serif:id="Line" d="M0.424,158.5L145.576,158.5" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+                <path id="Line5" serif:id="Line" d="M0.424,196.5L145.576,196.5" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+                <path id="Line6" serif:id="Line" d="M0.424,234.5L145.576,234.5" style="fill:none;stroke:black;stroke-width:3px;stroke-linecap:round;"/>
+            </g>
+        </g>
+        <g id="Group-2" transform="matrix(1,0,0,1,198,104)">
+            <circle id="Oval" cx="60" cy="60" r="60" style="fill:white;stroke:black;stroke-width:5px;"/>
+            <g id="Path" transform="matrix(-3.82857e-16,1,-1,-3.82857e-16,144,-26)">
+                <path d="M51,75L85,43L119,75" style="fill:none;stroke:black;stroke-width:7px;stroke-linecap:round;"/>
+            </g>
+            <path id="Line-2" d="M17.566,59.5L93.434,59.5" style="fill:none;stroke:black;stroke-width:7px;stroke-linecap:round;"/>
+        </g>
+    </g>
+</svg>

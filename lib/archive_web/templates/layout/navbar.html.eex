@@ -18,27 +18,26 @@
         <% else %>
           
         <% end %>
-         <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Archive</a>
-            <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Collaborators</a>
+         <!--<a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Archive</a>
+            <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Collaborators</a>-->
        
       </div>
       <div class="navbar-end has-text-centered">
-        <%= if @current_user do %>
+        <!--<%= if @current_user do %>
           <div class="buttons navbar-item">
            <%= button "Logout", to: Routes.auth_path(@conn, :delete), method: :delete, class: "button is-light" %>
            </div>
-        <% else %>
-        <a href="/home" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Home</a>
-        <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Blog</a>
-        <a href="/news" class='navbar-item <%="#{active_class(ArchiveWeb.NewsController, @conn)}"%>'>News</a>
-        <a href="/follow" class='navbar-item <%="#{active_class(ArchiveWeb.FollowController, @conn)}"%>'>Contact</a>
-        <a href="/auth/identity" class='navbar-item <%="#{active_class(ArchiveWeb.FollowController, @conn)}"%>'>Login</a>
+        <% else %> -->
+        <a href="/" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Home</a>
+        <a href="/news" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>News</a>
+        
+        <!--<a href="/auth/identity" class='navbar-item <%="#{active_class(ArchiveWeb.FollowController, @conn)}"%>'>Login</a>
         <div class="buttons navbar-item">
           <a class="button is-light">
             <strong>Sign up</strong>
           </a>
         </div>
-        <% end %>
+        <% end %> -->
       </div>
     </div>
   </div>

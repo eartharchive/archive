@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 545 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="Group-2" transform="matrix(1,0,0,1,3,0)">
+        <path id="Rectangle" d="M14.5,35.815L14.5,434.033C66.51,415.622 108.315,406.399 140,406.399C171.685,406.399 213.49,415.622 265.5,434.033L265.5,35.492C225.992,14.212 186.505,3.591 147,3.591C132.85,3.591 118.121,4.953 102.811,7.68C84.447,10.952 54.971,20.334 14.5,35.815L14.5,35.815Z" style="fill:white;stroke:black;stroke-width:7px;"/>
+        <path id="Line-2" d="M0.5,70.5L0.5,444.621L539,445L539,77.064" style="fill:none;stroke:black;stroke-width:6px;stroke-linecap:square;"/>
+        <path id="Rectangle1" serif:id="Rectangle" d="M272.5,35.725L272.5,434.198C331.601,416.49 375.72,407.624 405,407.624C434.167,407.624 473.634,416.412 523.5,433.953L523.5,35.401C483.992,14.121 444.505,3.5 405,3.5C390.85,3.5 376.121,4.862 360.811,7.59C342.447,10.861 312.971,20.243 272.5,35.725L272.5,35.725Z" style="fill:white;stroke:black;stroke-width:7px;"/>
+        <path id="Path" d="M249,445.5C249,456.822 258.178,466 269.5,466C280.822,466 290,456.822 290,445.5" style="stroke:black;stroke-width:1px;"/>
+    </g>
+</svg>
