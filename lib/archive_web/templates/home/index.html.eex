@@ -231,7 +231,7 @@
 						<article class="section">
 							<figure class="has-text-centered">
 								<span class="icon is-large">
-									<img height="50px"src='<%= Routes.static_path(@conn, "/images/ogh_logo.jpg") %>'> 
+									<img height="50px"src='<%= Routes.static_path(@conn, "/images/ogh_logo_globe.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
