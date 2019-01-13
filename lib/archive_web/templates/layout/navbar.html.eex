@@ -19,7 +19,7 @@
           
         <% end %>
          <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Archive</a>
-            <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Cooperators</a>
+            <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Collaborators</a>
        
       </div>
       <div class="navbar-end has-text-centered">
