@@ -90,7 +90,7 @@
 						<article class="section has-background-white">
 							<figure class="has-text-centered">
 								<span class="icon is-large">
-									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_open_icon.svg") %>'> 
+									<img src='<%= Routes.static_path(@conn, "/images/archive_earth_open_icon_new.svg") %>'> 
 								</span>
 							</figure>
 							<div class="has-text-centered">
