@@ -12,22 +12,12 @@
     </div>
     <div id="navMenu" class="navbar-menu has-text-centered">
       <div class="navbar-start">
-        <%= if @current_user do %>
-        <p class="navbar-item" > Welcome <%= @current_user.name %>! </p>
-         <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>My Archive</a>
-        <% else %>
-          
-        <% end %>
          <!--<a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Archive</a>
             <a href="/about" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Collaborators</a>-->
        
       </div>
       <div class="navbar-end has-text-centered">
-        <!--<%= if @current_user do %>
-          <div class="buttons navbar-item">
-           <%= button "Logout", to: Routes.auth_path(@conn, :delete), method: :delete, class: "button is-light" %>
-           </div>
-        <% else %> -->
+
         <a href="/" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>Home</a>
         <a href="/news" class='navbar-item <%="#{active_class(ArchiveWeb.AboutController, @conn)}"%>'>News</a>
         
