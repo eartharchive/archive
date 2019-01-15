@@ -7,7 +7,7 @@ defmodule ArchiveWeb.Router do
     plug :fetch_flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
-    plug ArchiveWeb.AuthenticationController
+    #plug ArchiveWeb.AuthenticationController
   end
 
   pipeline :api do
