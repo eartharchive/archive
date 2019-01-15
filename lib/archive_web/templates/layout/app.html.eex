@@ -50,7 +50,7 @@ window.cookieconsent.initialise({
  
   </div>
 </section>
-
+  <%= render "footer.html", assigns %>
     
     <%= render "scripts.html", assigns %>
   </body>

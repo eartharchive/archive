@@ -249,6 +249,21 @@
 		</section>
 		<!-- /.section -->
 
+<div class="is-divider"></div>
+  <section class="section">
+   <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="title">
+                    <p>Public beta coming soon!</p>
+					<p>Follow us on Twitter to be updated!</p>
+					<a class="level-item" href="https://twitter.com/ArchivedEarth">
+                                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                                </a>
+                    </div>
+                </div>
+            </div>
+  </section>
+
   <div class="is-divider"></div>
   <section class="section">
    <div class="hero-body">
