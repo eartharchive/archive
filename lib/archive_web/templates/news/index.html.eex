@@ -11,9 +11,10 @@
             </div>
             <div class="card-content">
               <div class="content">
-                <h4>Announcing Archive.Earth:</h4>
+                <h3>Announcing Archive.Earth:</h3>
                 <h4> First Blog Post</h4>
                 <p> "In his last Wikipedia funding plea of 2018, Jimmy Wales wrote that “just as our society will collapse without sustainable shepherding of the environment, the information that underpins the internet must be protected” ...</p>
+                <p><strong><time datetime="2019-1-13">13 Jan 2019</time></strong><p>
                 <span class="button is-link modal-button">Read more</span>
               </div>
             </div>
