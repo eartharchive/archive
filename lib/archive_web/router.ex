@@ -21,6 +21,7 @@ defmodule ArchiveWeb.Router do
     get "/about", AboutController, :index
     get "/news", NewsController, :index
     get "/follow", FollowController, :index
+    get "/privacy-policy", DocumentsController, :privacy_policy
     #resources "/users", UserController
     #resources "/requests", RequestController
   end

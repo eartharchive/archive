@@ -1,3 +1,3 @@
-defmodule ArchiveWeb.AboutView do
+defmodule ArchiveWeb.DocumentsView do
   use ArchiveWeb, :view
 end
