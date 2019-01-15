@@ -1,39 +1,24 @@
 <a href="https://medium.com/@archive_earth/lets-archive-earth-c9c6a9a1665">
-<div class="container">
-   <!-- START ARTICLE FEED -->
-        <section class="articles">
-            <div class="column">
-                <!-- START ARTICLE -->
-                <div class="card article">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content has-text-centered">
-                                <p class="title article-title">Let’s Archive Earth</p>
-                                <div class="tags has-addons level-item">
-                                    <span class="tag is-rounded">Jan 13, 2019</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content article-body">
-                        
-<p>
-In his last Wikipedia fundraising email of 2018, Jimmy Wales wrote <em>"just as
-our society will collapse without sustainable shepherding of the environment,
-the information that underpins the internet must be protected"</em>. Though a
-convenient analogy, relatively few are aware the extent to which environmental
-health depends on digital systems that monitor, transmit, store, and process
-information, or individuals/groups influencing this. Beyond a free encyclopedias, let’s imagine the impact of a global, universal, reliable, and uncensorable evidence- base for Earth’s peoples and environment.
-</p>
-<p>
-<strong>Introducing Archive.Earth: an open platform for collective environmental memory. Its main responsibility is to realize and maintain ‘bindings’ for upload and recall from a permanent, unstoppable data storage infrastructure. As this capability, applied properly, also has potential to facilitate peer-review and ‘web-scale’ adoption, a second focus is to curate in-demand, open-access content of quality that is endorsed by its community. This is then archived and accessible for usage by anyone. As a collective, our goals are to:
-</strong> ... Click to read more.
-</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END ARTICLE -->
-                
-        </section>
-        <!-- END ARTICLE FEED -->
-</div>
+
+  <section class="container">
+      <div class="columns features">
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src='<%= Routes.static_path(@conn, "/images/header_EDGI.png") %>' alt="header-EDGI"> 
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>Announcing Archive.Earth:</h4>
+                <h4> First Blog Post</h4>
+                <p> "In his last Wikipedia funding plea of 2018, Jimmy Wales wrote that “just as our society will collapse without sustainable shepherding of the environment, the information that underpins the internet must be protected” ...</p>
+                <span class="button is-link modal-button">Read more</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end columns -->
+    </section>
 </a>
