@@ -221,7 +221,7 @@
 		<section class="section">
 			<div class="container">
         <p class="title">Collaborators</p>
-        <p>The Archive.Earth project is being assisted in terms of:</p>
+        <p>The Archive.Earth project is being assisted by:</p>
 
 				<div class="columns">
 					<div class="column">
@@ -241,6 +241,7 @@
 							</div>
 						</article>
 					</div>
+
           	<div class="column">
 						<article class="section">
 							<figure class="has-text-centered">
@@ -258,6 +259,25 @@
 							</div>
 						</article>
 					</div>
+
+				         	<div class="column">
+						<article class="section">
+							<figure class="has-text-centered">
+								<span class="icon is-large">
+									<img height="50px"src='<%= Routes.static_path(@conn, "/images/arweave_logo.svg") %>'> 
+								</span>
+							</figure>
+							<div class="has-text-centered">
+								<div class="content">
+									<h1 class="title is-size-4">Arweave</h1>
+									<p class="is-size-5">
+										Arweave is a new data storage blockchain protocol that enables cheap permanent censorship-free storage and hosting of files and web content. Developers, teams, and businesses of all sizes use the Arweave to deploy, automatically manage, and auto-scale their apps without ongoing fees and maintenance.
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+
 				</div>
 			</div>
 		</section>
