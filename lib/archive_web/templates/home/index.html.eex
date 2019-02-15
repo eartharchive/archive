@@ -19,10 +19,12 @@
 
 <section> 
 <div class="section container has-text-centered">
-      <p class="title">An open platform for collective environmental memory.</p>
+      <p class="title">An open platform for collective memory.</p>
       <article class="media notification has-background-white">
-        <p class="has-text-centered">Current systems to store environmental knowledge on computers are fragile and vulnerable to interference. That is why Archive.Earth was created, as a platform to collect, store, protect and share environmental research responsibly. We want to ensure scientists have tools to collaborate and communicate their findings with each other and the public.<br>
-        <strong>How will we do this?</strong> Archive.Earth works with existing communities and groups to curate high quality, trusted information useful for democratic governance, scientific reproducibility, and empowering  ‘planetary-scale’ innovation. 
+        <p class="has-text-centered">Current ways to store knowledge on computers are fragile and vulnerable to interference.
+				Archive.Earth is a system to capture, store, and share knowledge, focused on the world environment.
+				As a neutral body, its mandate is to help citizens, scientists, governments, companies, and other stakeholders communicate and collaborate - internally, with each other, and the broader public - on topics of interest and concern, with guarantee of permanent access of records.
+        <strong>How can it do this?</strong> work with communities to curate information for quality, reproducibility. Integrate achievements in open access with immutable, planetary-scale data storage infrastructure. 
         </p>
       </article>
     </div>
@@ -44,7 +46,7 @@
 								<div class="content">
 									<h2 class="title is-size-4">Permanent</h1>
 									<p class="subtitle is-size-5">
-									Uses decentralized data storage technology to prevent information loss.
+									Uses distributed data storage technology to prevent information loss.
 									</p>
 								</div>
 							</div>
@@ -95,7 +97,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Open</h1>
 									<p class="subtitle is-size-5">
-										Everyone can upload data onto our platform. Data can be set for public view.
+										Everyone can upload, and this can be set for public view.
 									</p>
 								</div>
 							</div>
@@ -129,7 +131,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Governance</h1>
 									<p class="subtitle is-size-5">
-										All submitted data is subject to peer-review and voting before archival.
+										All curated data subject to review and vote for archival. 
 									</p>
 								</div>
 							</div>
@@ -157,7 +159,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Submit</h1>
 									<p class="is-size-5">
-                  ANYONE can submit information (maps, documents, images, data, etc) to be stored permanently.<br>A small one time fee will apply, but can be covered by a donor or internal funding programs.
+                  Anyone submit data of supported types (maps, docs, images, etc.).<br>Unless covered by internal fund (and curation) or donor support, a charge - at cost - may apply.
 									</p>
 								</div>
 							</div>
@@ -191,7 +193,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Cite</h1>
 									<p class="is-size-5">
-										Once stored, data will be viewable “as-published” forever. In the case of open-ended collections, data will be automatically updated.<br>Whenever possible content is viewable in a browser, as well as machine-exportable (API).
+										Data is permanent, “as-published”.<br>Content viewable in browser or exportable for compatibility and machine-readability.
 									</p>
 								</div>
 							</div>
