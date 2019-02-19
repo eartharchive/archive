@@ -226,23 +226,6 @@
         <p>The Archive.Earth project is being assisted by:</p>
 
 				<div class="columns">
-					<div class="column">
-						<article class="section">
-							<figure class="has-text-centered">
-								<span class="icon is-large">
-									<img src='<%= Routes.static_path(@conn, "/images/econet_logo.svg") %>'> 
-								</span>
-							</figure>
-							<div class="has-text-centered">
-								<div class="content">
-									<h1 class="title is-size-4">EcoNet</h1>
-									<p class="is-size-5">
-										Is a full-stack, open-source technology company focused on environment. Provide support in design and implementation of systems and processes. 
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
 
           	<div class="column">
 						<article class="section">
