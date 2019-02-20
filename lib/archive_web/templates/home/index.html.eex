@@ -209,10 +209,10 @@
                 <div class="container has-text-centered">
                     <div class="title">
                     <p>Public beta coming soon!</p>
-					<p>Follow us on Twitter to be updated!</p>
+					<!--<p>Follow us on Twitter to be updated!</p>
 					<a class="level-item" href="https://twitter.com/ArchivedEarth">
                                     <span class="icon"><i class="fab fa-twitter"></i></span>
-                                </a>
+                                </a> -->
                     </div>
                 </div>
             </div>
@@ -227,7 +227,7 @@
 
 				<div class="columns">
 
-          	<div class="column">
+          	<!--<div class="column">
 						<article class="section">
 							<figure class="has-text-centered">
 								<span class="icon is-large">
@@ -243,7 +243,7 @@
 								</div>
 							</div>
 						</article>
-					</div>
+					</div> -->
 
 				         	<div class="column">
 						<article class="section">
